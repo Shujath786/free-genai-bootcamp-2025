@@ -30,4 +30,4 @@ The primary focus is to to create an experience that is effective and affordable
 
 ## Considerations
 
-We're considering JAIS for its open-source flexibility and extensive training data, supporting 30 billion parameters and provides accurate Arabic grammar, syntax, and vocabulary explanations, making it suitable for learners at all levels.
+We're considering GPT4 for its open-source flexibility and extensive training data, supporting more than 175 billion parameters and provides accurate Arabic grammar, syntax, and vocabulary explanations, making it suitable for learners at all levels.
