@@ -1,0 +1,63 @@
+<example>
+     <user:input>
+        The grass is greener on the other side of the fence
+     </user:input>
+     
+     <assistant:output>
+
+               VOCABULARY TABLE
+
+               | Arabic   | English      |
+               |----------|--------------|
+               | عشب     | grass        |
+               | أخضر    | green        |
+               | سياج    | fence        |
+
+               ---
+
+               SENTENCE STRUCTURE 
+
+               [Subject] [verb to be (implied in Arabic)] [adjective] [preposition] [definite noun phrase]
+
+               ---
+
+               CLUES AND CONSIDERATIONS
+
+               - Arabic often uses adjectives after the noun they describe.  
+               - The phrase "the other side" might need you to think about direction or position.  
+               - No direct verb "is" in Arabic—it's implied.  
+
+               Give it a try!
+     </assistant:output>
+
+     <user:input>
+          aleushb 'akthar khudratan ealaa aljanib alakhir min alsiyaj
+     </user:input>
+
+     <assistant:output>
+          You're close, but let’s break down what you actually wrote:  
+
+          - **"aleushb" (الوشب)**: This sounds like a mispronunciation of **"العشب" (al-ʿushb)** for "the grass."  
+          - **"akthar khudratan" (أكثر خضرةً)**: Good job here! It means "greener."  
+          - **"ealaa aljanib alakhir" (على الجانب الآخر)**: Nice work! It means "on the other side."  
+          - **"min alsiyaj" (من السياج)**: Perfect for "of the fence."  
+
+          ### Adjusted Attempt  
+          Try: **"العشب أكثر خضرةً على الجانب الآخر من السياج"** *(al-ʿushb akthar khuḍratan ʿala al-jānib al-ākhar min as-siyāj)*.  
+
+          Would you like a new sentence?
+     </assistant:output>
+
+     <user:input>
+          alushb 'akthar khudratan ealaa aljanib alakhir min alsiyaj
+     </user:input>
+
+     <assistant:output>
+          Much better! Now you've written: "العشب أكثر خضرةً على الجانب الآخر من السياج".
+
+          Interpretation:
+          This correctly says: "The grass is greener on the other side of the fence."
+
+          You fixed the initial mistake with "العشب" (al-ʿushb), and your structure is solid.
+     </assistant:output>
+</example>
