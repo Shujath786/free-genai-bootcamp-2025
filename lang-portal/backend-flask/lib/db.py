@@ -70,7 +70,7 @@ class Db:
       ''', (activity['name'],activity['url'],activity['preview_url'],))
     self.get().commit()
 
-  def import_word_json(self,cursor,group_name,data_json_path):
+  def import_word_json(self,cursor,group_name,data_json_path,words_key='verbs'):
     # Insert a new group
     cursor.execute('''
       INSERT INTO groups (name) VALUES (?)
@@ -83,19 +83,23 @@ class Db:
 
     # Load and parse JSON file - now handling the nested structure
     json_data = self.load_json(data_json_path)
-    # Extract the verbs array from the JSON object
-    words = json_data.get('verbs', [])
+    # Extract the words array from the JSON object using the provided key
+    words = json_data.get(words_key, [])
 
     for word in words:
+        # Get the parts array - could be named either 'parts' or 'letters'
+        parts = word.get('parts', []) if 'parts' in word else word.get('letters', [])
+        
         # Insert the word into the words table
         cursor.execute('''
-            INSERT INTO words (english, arabic, root, parts) 
-            VALUES (?, ?, ?, ?)
+            INSERT INTO words (english, arabic, root, transliteration, parts) 
+            VALUES (?, ?, ?, ?, ?)
         ''', (
             word['english'], 
             word['arabic'], 
-            word['root'], 
-            json.dumps(word['parts'])  # Convert the parts array to JSON string
+            word['root'],
+            word['transliteration'],
+            json.dumps(parts)  # Convert the parts array to JSON string
         ))
         
         # Get the last inserted word's ID
@@ -128,12 +132,14 @@ class Db:
       self.import_word_json(
         cursor=cursor,
         group_name='Core Verbs',
-        data_json_path='seed/data_verbs.json'
+        data_json_path='seed/data_verbs.json',
+        words_key='verbs'
       )
       self.import_word_json(
         cursor=cursor,
         group_name='Core Adjectives',
-        data_json_path='seed/data_adjectives.json'
+        data_json_path='seed/data_adjectives.json',
+        words_key='adjectives'
       )
 
       self.import_study_activities_json(
