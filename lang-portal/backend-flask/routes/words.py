@@ -18,7 +18,7 @@ def load(app):
       offset = (page - 1) * words_per_page
 
       # Get sorting parameters from the query string
-      sort_by = request.args.get('sort_by', 'english')  # Default to sorting by 'kanji'
+      sort_by = request.args.get('sort_by', 'english')  # Default to sorting by 'english'
       order = request.args.get('order', 'asc')  # Default to ascending order
 
       # Validate sort_by and order
@@ -111,7 +111,10 @@ def load(app):
           "id": word["id"],
           "english": word["english"],
           "arabic": word["arabic"],
+<<<<<<< HEAD
           "transliteration": word["transliteration"],
+=======
+>>>>>>> 009fb3adc77eca9c34f3c78fada692bed106e915
           "root": word["root"],
           "correct_count": word["correct_count"],
           "wrong_count": word["wrong_count"],
