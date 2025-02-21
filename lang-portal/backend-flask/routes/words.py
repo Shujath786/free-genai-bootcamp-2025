@@ -18,7 +18,7 @@ def load(app):
       offset = (page - 1) * words_per_page
 
       # Get sorting parameters from the query string
-      sort_by = request.args.get('sort_by', 'english')  # Default to sorting by 'kanji'
+      sort_by = request.args.get('sort_by', 'english')  # Default to sorting by 'english'
       order = request.args.get('order', 'asc')  # Default to ascending order
 
       # Validate sort_by and order
