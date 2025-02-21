@@ -4,7 +4,7 @@
       "english": "good",
       "arabic": "جَيِّد",
       "root": "ج ي د",
-      "letters": [
+      "parts": [
         {
           "letter": "جَ",
           "transliteration": "jay"
@@ -24,7 +24,7 @@
       "english": "old",
       "arabic": "قَدِيم",
       "root": "ق د م",
-      "letters": [
+      "parts": [
         {
           "letter": "قَ",
           "transliteration": "qa"
@@ -48,7 +48,7 @@
       "english": "busy",
       "arabic": "مَشْغُول",
       "root": "ش غ ل",
-      "letters": [
+      "parts": [
         {
           "letter": "مَ",
           "transliteration": "ma"
@@ -76,7 +76,7 @@
       "english": "new",
       "arabic": "جَدِيد",
       "root": "ج د د",
-      "letters": [
+      "parts": [
         {
           "letter": "جَ",
           "transliteration": "ja"
@@ -100,7 +100,7 @@
       "english": "bad",
       "arabic": "سَيِّئ",
       "root": "س و ء",
-      "letters": [
+      "parts": [
         {
           "letter": "سَ",
           "transliteration": "sa"
@@ -120,7 +120,7 @@
       "english": "sad",
       "arabic": "حَزِين",
       "root": "ح ز ن",
-      "letters": [
+      "parts": [
         {
           "letter": "حَ",
           "transliteration": "ḥa"
@@ -144,7 +144,7 @@
       "english": "glad",
       "arabic": "سَعِيد",
       "root": "س ع د",
-      "letters": [
+      "parts": [
         {
           "letter": "سَ",
           "transliteration": "sa"
@@ -168,7 +168,7 @@
       "english": "fat",
       "arabic": "سَمِين",
       "root": "س م ن",
-      "letters": [
+      "parts": [
         {
           "letter": "سَ",
           "transliteration": "sa"
@@ -192,7 +192,7 @@
       "english": "thin",
       "arabic": "نَحِيف",
       "root": "ن ح ف",
-      "letters": [
+      "parts": [
         {
           "letter": "نَ",
           "transliteration": "na"
@@ -216,7 +216,7 @@
       "english": "interesting",
       "arabic": "مُثِير",
       "root": "ث و ر",
-      "letters": [
+      "parts": [
         {
           "letter": "مُ",
           "transliteration": "mu"
@@ -240,7 +240,7 @@
       "english": "same",
       "arabic": "نَفْس",
       "root": "ن ف س",
-      "letters": [
+      "parts": [
         {
           "letter": "نَ",
           "transliteration": "na"
@@ -260,7 +260,7 @@
       "english": "dirty",
       "arabic": "وَسِخ",
       "root": "و س خ",
-      "letters": [
+      "parts": [
         {
           "letter": "وَ",
           "transliteration": "wa"
@@ -280,7 +280,7 @@
       "english": "pretty",
       "arabic": "جَمِيل",
       "root": "ج م ل",
-      "letters": [
+      "parts": [
         {
           "letter": "جَ",
           "transliteration": "ja"
@@ -304,7 +304,7 @@
       "english": "hot",
       "arabic": "حَارّ",
       "root": "ح ر ر",
-      "letters": [
+      "parts": [
         {
           "letter": "حَ",
           "transliteration": "ḥa"
@@ -324,7 +324,7 @@
       "english": "cold",
       "arabic": "بَارِد",
       "root": "ب ر د",
-      "letters": [
+      "parts": [
         {
           "letter": "بَ",
           "transliteration": "ba"
@@ -349,7 +349,7 @@
       "english": "cool",
       "arabic": "رَائِع",
       "root": "ر و ع",
-      "letters": [
+      "parts": [
         {
           "letter": "رَ",
           "transliteration": "ra"
@@ -373,7 +373,7 @@
       "english": "tasty",
       "arabic": "لَذِيذ",
       "root": "ل ذ ذ",
-      "letters": [
+      "parts": [
         {
           "letter": "لَ",
           "transliteration": "la"
@@ -397,7 +397,7 @@
       "english": "spicy",
       "arabic": "حَارّ",
       "root": "ح ر ر",
-      "letters": [
+      "parts": [
         {
           "letter": "حَ",
           "transliteration": "ḥa"
@@ -417,7 +417,7 @@
       "english": "bland",
       "arabic": "تَافِه",
       "root": "ت ف ه",
-      "letters": [
+      "parts": [
         {
           "letter": "تَ",
           "transliteration": "ta"
@@ -441,7 +441,7 @@
       "english": "awesome",
       "arabic": "مُدْهِش",
       "root": "د ه ش",
-      "letters": [
+      "parts": [
         {
           "letter": "مُ",
           "transliteration": "mu"
@@ -465,7 +465,7 @@
       "english": "wonderful",
       "arabic": "رَائِع",
       "root": "ر و ع",
-      "letters": [
+      "parts": [
         {
           "letter": "رَ",
           "transliteration": "ra"
@@ -489,7 +489,7 @@
       "english": "narrow",
       "arabic": "ضَيِّق",
       "root": "ض ي ق",
-      "letters": [
+      "parts": [
         {
           "letter": "ضَ",
           "transliteration": "ḍa"
@@ -509,7 +509,7 @@
       "english": "kind",
       "arabic": "لَطِيف",
       "root": "ل ط ف",
-      "letters": [
+      "parts": [
         {
           "letter": "لَ",
           "transliteration": "la"
@@ -533,7 +533,7 @@
       "english": "near; close",
       "arabic": "قَرِيب",
       "root": "ق ر ب",
-      "letters": [
+      "parts": [
         {
           "letter": "قَ",
           "transliteration": "qa"
@@ -557,7 +557,7 @@
       "english": "boring",
       "arabic": "مُمِلّ",
       "root": "م ل ل",
-      "letters": [
+      "parts": [
         {
           "letter": "مُ",
           "transliteration": "mu"
@@ -577,7 +577,7 @@
       "english": "far",
       "arabic": "بَعِيد",
       "root": "ب ع د",
-      "letters": [
+      "parts": [
         {
           "letter": "بَ",
           "transliteration": "ba"
@@ -601,7 +601,7 @@
       "english": "famous",
       "arabic": "مَشْهُور",
       "root": "ش ه ر",
-      "letters": [
+      "parts": [
         {
           "letter": "مَ",
           "transliteration": "ma"
@@ -629,7 +629,7 @@
       "english": "long",
       "arabic": "طَوِيل",
       "root": "ط و ل",
-      "letters": [
+      "parts": [
         {
           "letter": "طَ",
           "transliteration": "ṭa"
@@ -653,7 +653,7 @@
       "english": "wide",
       "arabic": "وَاسِع",
       "root": "و س ع",
-      "letters": [
+      "parts": [
         {
           "letter": "وَ",
           "transliteration": "wa"
@@ -677,7 +677,7 @@
       "english": "low",
       "arabic": "مُنْخَفِض",
       "root": "خ ف ض",
-      "letters": [
+      "parts": [
         {
           "letter": "مُ",
           "transliteration": "mu"
@@ -705,7 +705,7 @@
       "english": "strange",
       "arabic": "غَرِيب",
       "root": "غ ر ب",
-      "letters": [
+      "parts": [
         {
           "letter": "غَ",
           "transliteration": "gha"
@@ -729,7 +729,7 @@
       "english": "short",
       "arabic": "قَصِير",
       "root": "ق ص ر",
-      "letters": [
+      "parts": [
         {
           "letter": "قَ",
           "transliteration": "qa"
@@ -753,7 +753,7 @@
       "english": "expensive",
       "arabic": "غَالٍ",
       "root": "غ ل و",
-      "letters": [
+      "parts": [
         {
           "letter": "غَ",
           "transliteration": "gha"
@@ -773,7 +773,7 @@
       "english": "small",
       "arabic": "صَغِير",
       "root": "ص غ ر",
-      "letters": [
+      "parts": [
         {
           "letter": "صَ",
           "transliteration": "ṣa"
@@ -797,7 +797,7 @@
       "english": "cheap",
       "arabic": "رَخِيص",
       "root": "ر خ ص",
-      "letters": [
+      "parts": [
         {
           "letter": "رَ",
           "transliteration": "ra"
@@ -821,7 +821,7 @@
       "english": "large",
       "arabic": "كَبِير",
       "root": "ك ب ر",
-      "letters": [
+      "parts": [
         {
           "letter": "كَ",
           "transliteration": "ka"
@@ -846,7 +846,7 @@
       "english": "fun",
       "arabic": "مُمْتِع",
       "root": "م ت ع",
-      "letters": [
+      "parts": [
         {
           "letter": "مُ",
           "transliteration": "mu"
@@ -870,7 +870,7 @@
       "english": "strong",
       "arabic": "قَوِيّ",
       "root": "ق و ي",
-      "letters": [
+      "parts": [
         {
           "letter": "قَ",
           "transliteration": "qa"
@@ -890,7 +890,7 @@
       "english": "weak",
       "arabic": "ضَعِيف",
       "root": "ض ع ف",
-      "letters": [
+      "parts": [
         {
           "letter": "ضَ",
           "transliteration": "ḍa"
@@ -914,7 +914,7 @@
       "english": "bright",
       "arabic": "مُشْرِق",
       "root": "ش ر ق",
-      "letters": [
+      "parts": [
         {
           "letter": "مُ",
           "transliteration": "mu"
@@ -938,7 +938,7 @@
       "english": "dark",
       "arabic": "مُظْلِم",
       "root": "ظ ل م",
-      "letters": [
+      "parts": [
         {
           "letter": "مُ",
           "transliteration": "mu"
@@ -962,7 +962,7 @@
       "english": "heavy",
       "arabic": "ثَقِيل",
       "root": "ث ق ل",
-      "letters": [
+      "parts": [
         {
           "letter": "ثَ",
           "transliteration": "tha"
@@ -986,7 +986,7 @@
       "english": "light",
       "arabic": "خَفِيف",
       "root": "خ ف ف",
-      "letters": [
+      "parts": [
         {
           "letter": "خَ",
           "transliteration": "kha"
@@ -1010,7 +1010,7 @@
       "english": "early",
       "arabic": "مُبَكِّر",
       "root": "ب ك ر",
-      "letters": [
+      "parts": [
         {
           "letter": "مُ",
           "transliteration": "mu"
@@ -1034,7 +1034,7 @@
       "english": "slow",
       "arabic": "بَطِيء",
       "root": "ب ط ء",
-      "letters": [
+      "parts": [
         {
           "letter": "بَ",
           "transliteration": "ba"
@@ -1058,7 +1058,7 @@
       "english": "painful",
       "arabic": "مُؤْلِم",
       "root": "ء ل م",
-      "letters": [
+      "parts": [
         {
           "letter": "مُ",
           "transliteration": "mu"
@@ -1082,7 +1082,7 @@
       "english": "spread out",
       "arabic": "مُنْتَشِر",
       "root": "ن ش ر",
-      "letters": [
+      "parts": [
         {
           "letter": "مُ",
           "transliteration": "mu"
@@ -1110,7 +1110,7 @@
       "english": "bitter",
       "arabic": "مُرّ",
       "root": "م ر ر",
-      "letters": [
+      "parts": [
         {
           "letter": "مُ",
           "transliteration": "mu"
@@ -1126,7 +1126,7 @@
       "english": "sweet",
       "arabic": "حُلْو",
       "root": "ح ل و",
-      "letters": [
+      "parts": [
         {
           "letter": "حُ",
           "transliteration": "ḥu"
@@ -1146,7 +1146,7 @@
       "english": "hard",
       "arabic": "صَعْب",
       "root": "ص ع ب",
-      "letters": [
+      "parts": [
         {
           "letter": "صَ",
           "transliteration": "ṣa"
@@ -1166,7 +1166,7 @@
       "english": "soft",
       "arabic": "نَاعِم",
       "root": "ن ع م",
-      "letters": [
+      "parts": [
         {
           "letter": "نَ",
           "transliteration": "na"
@@ -1190,7 +1190,7 @@
       "english": "rare",
       "arabic": "نَادِر",
       "root": "ن د ر",
-      "letters": [
+      "parts": [
         {
           "letter": "نَ",
           "transliteration": "na"
@@ -1214,7 +1214,7 @@
       "english": "scary",
       "arabic": "مُخِيف",
       "root": "خ و ف",
-      "letters": [
+      "parts": [
         {
           "letter": "مُ",
           "transliteration": "mu"
@@ -1238,7 +1238,7 @@
       "english": "noisy",
       "arabic": "مُزْعِج",
       "root": "ز ع ج",
-      "letters": [
+      "parts": [
         {
           "letter": "مُ",
           "transliteration": "mu"
@@ -1262,7 +1262,7 @@
       "english": "quiet",
       "arabic": "هَادِئ",
       "root": "ه د ء",
-      "letters": [
+      "parts": [
         {
           "letter": "هَ",
           "transliteration": "ha"
@@ -1286,7 +1286,7 @@
       "english": "beautiful",
       "arabic": "جَمِيل",
       "root": "ج م ل",
-      "letters": [
+      "parts": [
         {
           "letter": "جَ",
           "transliteration": "ja"
@@ -1310,7 +1310,7 @@
       "english": "easy",
       "arabic": "سَهْل",
       "root": "س ه ل",
-      "letters": [
+      "parts": [
         {
           "letter": "سَ",
           "transliteration": "sa"
@@ -1330,7 +1330,7 @@
       "english": "great",
       "arabic": "عَظِيم",
       "root": "ع ظ م",
-      "letters": [
+      "parts": [
         {
           "letter": "عَ",
           "transliteration": "ʿa"
