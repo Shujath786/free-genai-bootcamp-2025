@@ -1,0 +1,1354 @@
+{
+  "adjectives": [
+    {
+      "english": "good",
+      "arabic": "جَيِّد",
+      "root": "ج ي د",
+      "letters": [
+        {
+          "letter": "جَ",
+          "transliteration": "jay"
+        },
+        {
+          "letter": "يِّ",
+          "transliteration": "yyi"
+        },
+        {
+          "letter": "د",
+          "transliteration": "d"
+        }
+      ],
+      "transliteration": "jayyid"
+    },
+    {
+      "english": "old",
+      "arabic": "قَدِيم",
+      "root": "ق د م",
+      "letters": [
+        {
+          "letter": "قَ",
+          "transliteration": "qa"
+        },
+        {
+          "letter": "دِ",
+          "transliteration": "di"
+        },
+        {
+          "letter": "ي",
+          "transliteration": "ii"
+        },
+        {
+          "letter": "م",
+          "transliteration": "m"
+        }
+      ],
+      "transliteration": "qadiim"
+    },
+    {
+      "english": "busy",
+      "arabic": "مَشْغُول",
+      "root": "ش غ ل",
+      "letters": [
+        {
+          "letter": "مَ",
+          "transliteration": "ma"
+        },
+        {
+          "letter": "شْ",
+          "transliteration": "sh"
+        },
+        {
+          "letter": "غُ",
+          "transliteration": "ghu"
+        },
+        {
+          "letter": "و",
+          "transliteration": "uu"
+        },
+        {
+          "letter": "ل",
+          "transliteration": "l"
+        }
+      ],
+      "transliteration": "mashghuul"
+    },
+    {
+      "english": "new",
+      "arabic": "جَدِيد",
+      "root": "ج د د",
+      "letters": [
+        {
+          "letter": "جَ",
+          "transliteration": "ja"
+        },
+        {
+          "letter": "دِ",
+          "transliteration": "di"
+        },
+        {
+          "letter": "ي",
+          "transliteration": "ii"
+        },
+        {
+          "letter": "د",
+          "transliteration": "d"
+        }
+      ],
+      "transliteration": "jadiid"
+    },
+    {
+      "english": "bad",
+      "arabic": "سَيِّئ",
+      "root": "س و ء",
+      "letters": [
+        {
+          "letter": "سَ",
+          "transliteration": "sa"
+        },
+        {
+          "letter": "يِّ",
+          "transliteration": "yyi"
+        },
+        {
+          "letter": "ئ",
+          "transliteration": "'"
+        }
+      ],
+      "transliteration": "sayyi'"
+    },
+    {
+      "english": "sad",
+      "arabic": "حَزِين",
+      "root": "ح ز ن",
+      "letters": [
+        {
+          "letter": "حَ",
+          "transliteration": "ḥa"
+        },
+        {
+          "letter": "زِ",
+          "transliteration": "zi"
+        },
+        {
+          "letter": "ي",
+          "transliteration": "ii"
+        },
+        {
+          "letter": "ن",
+          "transliteration": "n"
+        }
+      ],
+      "transliteration": "ḥaziin"
+    },
+    {
+      "english": "glad",
+      "arabic": "سَعِيد",
+      "root": "س ع د",
+      "letters": [
+        {
+          "letter": "سَ",
+          "transliteration": "sa"
+        },
+        {
+          "letter": "عِ",
+          "transliteration": "ʿi"
+        },
+        {
+          "letter": "ي",
+          "transliteration": "ii"
+        },
+        {
+          "letter": "د",
+          "transliteration": "d"
+        }
+      ],
+      "transliteration": "saʿiid"
+    },
+    {
+      "english": "fat",
+      "arabic": "سَمِين",
+      "root": "س م ن",
+      "letters": [
+        {
+          "letter": "سَ",
+          "transliteration": "sa"
+        },
+        {
+          "letter": "مِ",
+          "transliteration": "mi"
+        },
+        {
+          "letter": "ي",
+          "transliteration": "ii"
+        },
+        {
+          "letter": "ن",
+          "transliteration": "n"
+        }
+      ],
+      "transliteration": "samiin"
+    },
+    {
+      "english": "thin",
+      "arabic": "نَحِيف",
+      "root": "ن ح ف",
+      "letters": [
+        {
+          "letter": "نَ",
+          "transliteration": "na"
+        },
+        {
+          "letter": "حِ",
+          "transliteration": "ḥi"
+        },
+        {
+          "letter": "ي",
+          "transliteration": "ii"
+        },
+        {
+          "letter": "ف",
+          "transliteration": "f"
+        }
+      ],
+      "transliteration": "naḥiif"
+    },
+    {
+      "english": "interesting",
+      "arabic": "مُثِير",
+      "root": "ث و ر",
+      "letters": [
+        {
+          "letter": "مُ",
+          "transliteration": "mu"
+        },
+        {
+          "letter": "ثِ",
+          "transliteration": "thi"
+        },
+        {
+          "letter": "ي",
+          "transliteration": "ii"
+        },
+        {
+          "letter": "ر",
+          "transliteration": "r"
+        }
+      ],
+      "transliteration": "muthiir"
+    },
+    {
+      "english": "same",
+      "arabic": "نَفْس",
+      "root": "ن ف س",
+      "letters": [
+        {
+          "letter": "نَ",
+          "transliteration": "na"
+        },
+        {
+          "letter": "فْ",
+          "transliteration": "f"
+        },
+        {
+          "letter": "س",
+          "transliteration": "s"
+        }
+      ],
+      "transliteration": "nafs"
+    },
+    {
+      "english": "dirty",
+      "arabic": "وَسِخ",
+      "root": "و س خ",
+      "letters": [
+        {
+          "letter": "وَ",
+          "transliteration": "wa"
+        },
+        {
+          "letter": "سِ",
+          "transliteration": "si"
+        },
+        {
+          "letter": "خ",
+          "transliteration": "kh"
+        }
+      ],
+      "transliteration": "wasikh"
+    },
+    {
+      "english": "pretty",
+      "arabic": "جَمِيل",
+      "root": "ج م ل",
+      "letters": [
+        {
+          "letter": "جَ",
+          "transliteration": "ja"
+        },
+        {
+          "letter": "مِ",
+          "transliteration": "mi"
+        },
+        {
+          "letter": "ي",
+          "transliteration": "ii"
+        },
+        {
+          "letter": "ل",
+          "transliteration": "l"
+        }
+      ],
+      "transliteration": "jamiil"
+    },
+    {
+      "english": "hot",
+      "arabic": "حَارّ",
+      "root": "ح ر ر",
+      "letters": [
+        {
+          "letter": "حَ",
+          "transliteration": "ḥa"
+        },
+        {
+          "letter": "ا",
+          "transliteration": "aa"
+        },
+        {
+          "letter": "رّ",
+          "transliteration": "rr"
+        }
+      ],
+      "transliteration": "ḥaarr"
+    },
+    {
+      "english": "cold",
+      "arabic": "بَارِد",
+      "root": "ب ر د",
+      "letters": [
+        {
+          "letter": "بَ",
+          "transliteration": "ba"
+        },
+        {
+          "letter": "ا",
+          "transliteration": "aa"
+        },
+        {
+          "letter": "رِ",
+          "transliteration": "ri"
+        },
+        {
+          "letter": "د",
+          "transliteration": "d"
+        }
+      ],
+      "transliteration": "baarid"
+    }
+,
+    {
+      "english": "cool",
+      "arabic": "رَائِع",
+      "root": "ر و ع",
+      "letters": [
+        {
+          "letter": "رَ",
+          "transliteration": "ra"
+        },
+        {
+          "letter": "ا",
+          "transliteration": "aa"
+        },
+        {
+          "letter": "ئِ",
+          "transliteration": "'i"
+        },
+        {
+          "letter": "ع",
+          "transliteration": "ʿ"
+        }
+      ],
+      "transliteration": "raa'iʿ"
+    },
+    {
+      "english": "tasty",
+      "arabic": "لَذِيذ",
+      "root": "ل ذ ذ",
+      "letters": [
+        {
+          "letter": "لَ",
+          "transliteration": "la"
+        },
+        {
+          "letter": "ذِ",
+          "transliteration": "dhi"
+        },
+        {
+          "letter": "ي",
+          "transliteration": "ii"
+        },
+        {
+          "letter": "ذ",
+          "transliteration": "dh"
+        }
+      ],
+      "transliteration": "ladhiidh"
+    },
+    {
+      "english": "spicy",
+      "arabic": "حَارّ",
+      "root": "ح ر ر",
+      "letters": [
+        {
+          "letter": "حَ",
+          "transliteration": "ḥa"
+        },
+        {
+          "letter": "ا",
+          "transliteration": "aa"
+        },
+        {
+          "letter": "رّ",
+          "transliteration": "rr"
+        }
+      ],
+      "transliteration": "ḥaarr"
+    },
+    {
+      "english": "bland",
+      "arabic": "تَافِه",
+      "root": "ت ف ه",
+      "letters": [
+        {
+          "letter": "تَ",
+          "transliteration": "ta"
+        },
+        {
+          "letter": "ا",
+          "transliteration": "aa"
+        },
+        {
+          "letter": "فِ",
+          "transliteration": "fi"
+        },
+        {
+          "letter": "ه",
+          "transliteration": "h"
+        }
+      ],
+      "transliteration": "taafih"
+    },
+    {
+      "english": "awesome",
+      "arabic": "مُدْهِش",
+      "root": "د ه ش",
+      "letters": [
+        {
+          "letter": "مُ",
+          "transliteration": "mu"
+        },
+        {
+          "letter": "دْ",
+          "transliteration": "d"
+        },
+        {
+          "letter": "هِ",
+          "transliteration": "hi"
+        },
+        {
+          "letter": "ش",
+          "transliteration": "sh"
+        }
+      ],
+      "transliteration": "mudhish"
+    },
+    {
+      "english": "wonderful",
+      "arabic": "رَائِع",
+      "root": "ر و ع",
+      "letters": [
+        {
+          "letter": "رَ",
+          "transliteration": "ra"
+        },
+        {
+          "letter": "ا",
+          "transliteration": "aa"
+        },
+        {
+          "letter": "ئِ",
+          "transliteration": "'i"
+        },
+        {
+          "letter": "ع",
+          "transliteration": "ʿ"
+        }
+      ],
+      "transliteration": "raa'iʿ"
+    },
+    {
+      "english": "narrow",
+      "arabic": "ضَيِّق",
+      "root": "ض ي ق",
+      "letters": [
+        {
+          "letter": "ضَ",
+          "transliteration": "ḍa"
+        },
+        {
+          "letter": "يِّ",
+          "transliteration": "yyi"
+        },
+        {
+          "letter": "ق",
+          "transliteration": "q"
+        }
+      ],
+      "transliteration": "ḍayyiq"
+    },
+    {
+      "english": "kind",
+      "arabic": "لَطِيف",
+      "root": "ل ط ف",
+      "letters": [
+        {
+          "letter": "لَ",
+          "transliteration": "la"
+        },
+        {
+          "letter": "طِ",
+          "transliteration": "ṭi"
+        },
+        {
+          "letter": "ي",
+          "transliteration": "ii"
+        },
+        {
+          "letter": "ف",
+          "transliteration": "f"
+        }
+      ],
+      "transliteration": "laṭiif"
+    },
+    {
+      "english": "near; close",
+      "arabic": "قَرِيب",
+      "root": "ق ر ب",
+      "letters": [
+        {
+          "letter": "قَ",
+          "transliteration": "qa"
+        },
+        {
+          "letter": "رِ",
+          "transliteration": "ri"
+        },
+        {
+          "letter": "ي",
+          "transliteration": "ii"
+        },
+        {
+          "letter": "ب",
+          "transliteration": "b"
+        }
+      ],
+      "transliteration": "qariib"
+    },
+    {
+      "english": "boring",
+      "arabic": "مُمِلّ",
+      "root": "م ل ل",
+      "letters": [
+        {
+          "letter": "مُ",
+          "transliteration": "mu"
+        },
+        {
+          "letter": "مِ",
+          "transliteration": "mi"
+        },
+        {
+          "letter": "لّ",
+          "transliteration": "ll"
+        }
+      ],
+      "transliteration": "mumill"
+    },
+    {
+      "english": "far",
+      "arabic": "بَعِيد",
+      "root": "ب ع د",
+      "letters": [
+        {
+          "letter": "بَ",
+          "transliteration": "ba"
+        },
+        {
+          "letter": "عِ",
+          "transliteration": "ʿi"
+        },
+        {
+          "letter": "ي",
+          "transliteration": "ii"
+        },
+        {
+          "letter": "د",
+          "transliteration": "d"
+        }
+      ],
+      "transliteration": "baʿiid"
+    },
+    {
+      "english": "famous",
+      "arabic": "مَشْهُور",
+      "root": "ش ه ر",
+      "letters": [
+        {
+          "letter": "مَ",
+          "transliteration": "ma"
+        },
+        {
+          "letter": "شْ",
+          "transliteration": "sh"
+        },
+        {
+          "letter": "هُ",
+          "transliteration": "hu"
+        },
+        {
+          "letter": "و",
+          "transliteration": "uu"
+        },
+        {
+          "letter": "ر",
+          "transliteration": "r"
+        }
+      ],
+      "transliteration": "mashhuur"
+    },
+    {
+      "english": "long",
+      "arabic": "طَوِيل",
+      "root": "ط و ل",
+      "letters": [
+        {
+          "letter": "طَ",
+          "transliteration": "ṭa"
+        },
+        {
+          "letter": "وِ",
+          "transliteration": "wi"
+        },
+        {
+          "letter": "ي",
+          "transliteration": "ii"
+        },
+        {
+          "letter": "ل",
+          "transliteration": "l"
+        }
+      ],
+      "transliteration": "ṭawiil"
+    },
+    {
+      "english": "wide",
+      "arabic": "وَاسِع",
+      "root": "و س ع",
+      "letters": [
+        {
+          "letter": "وَ",
+          "transliteration": "wa"
+        },
+        {
+          "letter": "ا",
+          "transliteration": "aa"
+        },
+        {
+          "letter": "سِ",
+          "transliteration": "si"
+        },
+        {
+          "letter": "ع",
+          "transliteration": "ʿ"
+        }
+      ],
+      "transliteration": "waasiʿ"
+    },
+    {
+      "english": "low",
+      "arabic": "مُنْخَفِض",
+      "root": "خ ف ض",
+      "letters": [
+        {
+          "letter": "مُ",
+          "transliteration": "mu"
+        },
+        {
+          "letter": "نْ",
+          "transliteration": "n"
+        },
+        {
+          "letter": "خَ",
+          "transliteration": "kha"
+        },
+        {
+          "letter": "فِ",
+          "transliteration": "fi"
+        },
+        {
+          "letter": "ض",
+          "transliteration": "ḍ"
+        }
+      ],
+      "transliteration": "munkhafiḍ"
+    },
+    {
+      "english": "strange",
+      "arabic": "غَرِيب",
+      "root": "غ ر ب",
+      "letters": [
+        {
+          "letter": "غَ",
+          "transliteration": "gha"
+        },
+        {
+          "letter": "رِ",
+          "transliteration": "ri"
+        },
+        {
+          "letter": "ي",
+          "transliteration": "ii"
+        },
+        {
+          "letter": "ب",
+          "transliteration": "b"
+        }
+      ],
+      "transliteration": "ghariib"
+    },
+    {
+      "english": "short",
+      "arabic": "قَصِير",
+      "root": "ق ص ر",
+      "letters": [
+        {
+          "letter": "قَ",
+          "transliteration": "qa"
+        },
+        {
+          "letter": "صِ",
+          "transliteration": "ṣi"
+        },
+        {
+          "letter": "ي",
+          "transliteration": "ii"
+        },
+        {
+          "letter": "ر",
+          "transliteration": "r"
+        }
+      ],
+      "transliteration": "qaṣiir"
+    },
+    {
+      "english": "expensive",
+      "arabic": "غَالٍ",
+      "root": "غ ل و",
+      "letters": [
+        {
+          "letter": "غَ",
+          "transliteration": "gha"
+        },
+        {
+          "letter": "ا",
+          "transliteration": "aa"
+        },
+        {
+          "letter": "لٍ",
+          "transliteration": "lin"
+        }
+      ],
+      "transliteration": "ghaalin"
+    },
+    {
+      "english": "small",
+      "arabic": "صَغِير",
+      "root": "ص غ ر",
+      "letters": [
+        {
+          "letter": "صَ",
+          "transliteration": "ṣa"
+        },
+        {
+          "letter": "غِ",
+          "transliteration": "ghi"
+        },
+        {
+          "letter": "ي",
+          "transliteration": "ii"
+        },
+        {
+          "letter": "ر",
+          "transliteration": "r"
+        }
+      ],
+      "transliteration": "ṣaghiir"
+    },
+    {
+      "english": "cheap",
+      "arabic": "رَخِيص",
+      "root": "ر خ ص",
+      "letters": [
+        {
+          "letter": "رَ",
+          "transliteration": "ra"
+        },
+        {
+          "letter": "خِ",
+          "transliteration": "khi"
+        },
+        {
+          "letter": "ي",
+          "transliteration": "ii"
+        },
+        {
+          "letter": "ص",
+          "transliteration": "ṣ"
+        }
+      ],
+      "transliteration": "rakhiiṣ"
+    },
+    {
+      "english": "large",
+      "arabic": "كَبِير",
+      "root": "ك ب ر",
+      "letters": [
+        {
+          "letter": "كَ",
+          "transliteration": "ka"
+        },
+        {
+          "letter": "بِ",
+          "transliteration": "bi"
+        },
+        {
+          "letter": "ي",
+          "transliteration": "ii"
+        },
+        {
+          "letter": "ر",
+          "transliteration": "r"
+        }
+      ],
+      "transliteration": "kabiir"
+    }
+,
+    {
+      "english": "fun",
+      "arabic": "مُمْتِع",
+      "root": "م ت ع",
+      "letters": [
+        {
+          "letter": "مُ",
+          "transliteration": "mu"
+        },
+        {
+          "letter": "مْ",
+          "transliteration": "m"
+        },
+        {
+          "letter": "تِ",
+          "transliteration": "ti"
+        },
+        {
+          "letter": "ع",
+          "transliteration": "ʿ"
+        }
+      ],
+      "transliteration": "mumtiʿ"
+    },
+    {
+      "english": "strong",
+      "arabic": "قَوِيّ",
+      "root": "ق و ي",
+      "letters": [
+        {
+          "letter": "قَ",
+          "transliteration": "qa"
+        },
+        {
+          "letter": "وِ",
+          "transliteration": "wi"
+        },
+        {
+          "letter": "يّ",
+          "transliteration": "yy"
+        }
+      ],
+      "transliteration": "qawiyy"
+    },
+    {
+      "english": "weak",
+      "arabic": "ضَعِيف",
+      "root": "ض ع ف",
+      "letters": [
+        {
+          "letter": "ضَ",
+          "transliteration": "ḍa"
+        },
+        {
+          "letter": "عِ",
+          "transliteration": "ʿi"
+        },
+        {
+          "letter": "ي",
+          "transliteration": "ii"
+        },
+        {
+          "letter": "ف",
+          "transliteration": "f"
+        }
+      ],
+      "transliteration": "ḍaʿiif"
+    },
+    {
+      "english": "bright",
+      "arabic": "مُشْرِق",
+      "root": "ش ر ق",
+      "letters": [
+        {
+          "letter": "مُ",
+          "transliteration": "mu"
+        },
+        {
+          "letter": "شْ",
+          "transliteration": "sh"
+        },
+        {
+          "letter": "رِ",
+          "transliteration": "ri"
+        },
+        {
+          "letter": "ق",
+          "transliteration": "q"
+        }
+      ],
+      "transliteration": "mushriq"
+    },
+    {
+      "english": "dark",
+      "arabic": "مُظْلِم",
+      "root": "ظ ل م",
+      "letters": [
+        {
+          "letter": "مُ",
+          "transliteration": "mu"
+        },
+        {
+          "letter": "ظْ",
+          "transliteration": "ẓ"
+        },
+        {
+          "letter": "لِ",
+          "transliteration": "li"
+        },
+        {
+          "letter": "م",
+          "transliteration": "m"
+        }
+      ],
+      "transliteration": "muẓlim"
+    },
+    {
+      "english": "heavy",
+      "arabic": "ثَقِيل",
+      "root": "ث ق ل",
+      "letters": [
+        {
+          "letter": "ثَ",
+          "transliteration": "tha"
+        },
+        {
+          "letter": "قِ",
+          "transliteration": "qi"
+        },
+        {
+          "letter": "ي",
+          "transliteration": "ii"
+        },
+        {
+          "letter": "ل",
+          "transliteration": "l"
+        }
+      ],
+      "transliteration": "thaqiil"
+    },
+    {
+      "english": "light",
+      "arabic": "خَفِيف",
+      "root": "خ ف ف",
+      "letters": [
+        {
+          "letter": "خَ",
+          "transliteration": "kha"
+        },
+        {
+          "letter": "فِ",
+          "transliteration": "fi"
+        },
+        {
+          "letter": "ي",
+          "transliteration": "ii"
+        },
+        {
+          "letter": "ف",
+          "transliteration": "f"
+        }
+      ],
+      "transliteration": "khafiif"
+    },
+    {
+      "english": "early",
+      "arabic": "مُبَكِّر",
+      "root": "ب ك ر",
+      "letters": [
+        {
+          "letter": "مُ",
+          "transliteration": "mu"
+        },
+        {
+          "letter": "بَ",
+          "transliteration": "ba"
+        },
+        {
+          "letter": "كِّ",
+          "transliteration": "kki"
+        },
+        {
+          "letter": "ر",
+          "transliteration": "r"
+        }
+      ],
+      "transliteration": "mubakkir"
+    },
+    {
+      "english": "slow",
+      "arabic": "بَطِيء",
+      "root": "ب ط ء",
+      "letters": [
+        {
+          "letter": "بَ",
+          "transliteration": "ba"
+        },
+        {
+          "letter": "طِ",
+          "transliteration": "ṭi"
+        },
+        {
+          "letter": "ي",
+          "transliteration": "ii"
+        },
+        {
+          "letter": "ء",
+          "transliteration": "'"
+        }
+      ],
+      "transliteration": "baṭii'"
+    },
+    {
+      "english": "painful",
+      "arabic": "مُؤْلِم",
+      "root": "ء ل م",
+      "letters": [
+        {
+          "letter": "مُ",
+          "transliteration": "mu"
+        },
+        {
+          "letter": "ؤْ",
+          "transliteration": "'u"
+        },
+        {
+          "letter": "لِ",
+          "transliteration": "li"
+        },
+        {
+          "letter": "م",
+          "transliteration": "m"
+        }
+      ],
+      "transliteration": "mu'lim"
+    },
+    {
+      "english": "spread out",
+      "arabic": "مُنْتَشِر",
+      "root": "ن ش ر",
+      "letters": [
+        {
+          "letter": "مُ",
+          "transliteration": "mu"
+        },
+        {
+          "letter": "نْ",
+          "transliteration": "n"
+        },
+        {
+          "letter": "تَ",
+          "transliteration": "ta"
+        },
+        {
+          "letter": "شِ",
+          "transliteration": "shi"
+        },
+        {
+          "letter": "ر",
+          "transliteration": "r"
+        }
+      ],
+      "transliteration": "muntashir"
+    },
+    {
+      "english": "bitter",
+      "arabic": "مُرّ",
+      "root": "م ر ر",
+      "letters": [
+        {
+          "letter": "مُ",
+          "transliteration": "mu"
+        },
+        {
+          "letter": "رّ",
+          "transliteration": "rr"
+        }
+      ],
+      "transliteration": "murr"
+    },
+    {
+      "english": "sweet",
+      "arabic": "حُلْو",
+      "root": "ح ل و",
+      "letters": [
+        {
+          "letter": "حُ",
+          "transliteration": "ḥu"
+        },
+        {
+          "letter": "لْ",
+          "transliteration": "l"
+        },
+        {
+          "letter": "و",
+          "transliteration": "w"
+        }
+      ],
+      "transliteration": "ḥulw"
+    },
+    {
+      "english": "hard",
+      "arabic": "صَعْب",
+      "root": "ص ع ب",
+      "letters": [
+        {
+          "letter": "صَ",
+          "transliteration": "ṣa"
+        },
+        {
+          "letter": "عْ",
+          "transliteration": "ʿ"
+        },
+        {
+          "letter": "ب",
+          "transliteration": "b"
+        }
+      ],
+      "transliteration": "ṣaʿb"
+    },
+    {
+      "english": "soft",
+      "arabic": "نَاعِم",
+      "root": "ن ع م",
+      "letters": [
+        {
+          "letter": "نَ",
+          "transliteration": "na"
+        },
+        {
+          "letter": "ا",
+          "transliteration": "aa"
+        },
+        {
+          "letter": "عِ",
+          "transliteration": "ʿi"
+        },
+        {
+          "letter": "م",
+          "transliteration": "m"
+        }
+      ],
+      "transliteration": "naaʿim"
+    },
+    {
+      "english": "rare",
+      "arabic": "نَادِر",
+      "root": "ن د ر",
+      "letters": [
+        {
+          "letter": "نَ",
+          "transliteration": "na"
+        },
+        {
+          "letter": "ا",
+          "transliteration": "aa"
+        },
+        {
+          "letter": "دِ",
+          "transliteration": "di"
+        },
+        {
+          "letter": "ر",
+          "transliteration": "r"
+        }
+      ],
+      "transliteration": "naadir"
+    },
+    {
+      "english": "scary",
+      "arabic": "مُخِيف",
+      "root": "خ و ف",
+      "letters": [
+        {
+          "letter": "مُ",
+          "transliteration": "mu"
+        },
+        {
+          "letter": "خِ",
+          "transliteration": "khi"
+        },
+        {
+          "letter": "ي",
+          "transliteration": "ii"
+        },
+        {
+          "letter": "ف",
+          "transliteration": "f"
+        }
+      ],
+      "transliteration": "mukhiif"
+    },
+    {
+      "english": "noisy",
+      "arabic": "مُزْعِج",
+      "root": "ز ع ج",
+      "letters": [
+        {
+          "letter": "مُ",
+          "transliteration": "mu"
+        },
+        {
+          "letter": "زْ",
+          "transliteration": "z"
+        },
+        {
+          "letter": "عِ",
+          "transliteration": "ʿi"
+        },
+        {
+          "letter": "ج",
+          "transliteration": "j"
+        }
+      ],
+      "transliteration": "muzʿij"
+    },
+    {
+      "english": "quiet",
+      "arabic": "هَادِئ",
+      "root": "ه د ء",
+      "letters": [
+        {
+          "letter": "هَ",
+          "transliteration": "ha"
+        },
+        {
+          "letter": "ا",
+          "transliteration": "aa"
+        },
+        {
+          "letter": "دِ",
+          "transliteration": "di"
+        },
+        {
+          "letter": "ئ",
+          "transliteration": "'"
+        }
+      ],
+      "transliteration": "haadi'"
+    },
+    {
+      "english": "beautiful",
+      "arabic": "جَمِيل",
+      "root": "ج م ل",
+      "letters": [
+        {
+          "letter": "جَ",
+          "transliteration": "ja"
+        },
+        {
+          "letter": "مِ",
+          "transliteration": "mi"
+        },
+        {
+          "letter": "ي",
+          "transliteration": "ii"
+        },
+        {
+          "letter": "ل",
+          "transliteration": "l"
+        }
+      ],
+      "transliteration": "jamiil"
+    },
+    {
+      "english": "easy",
+      "arabic": "سَهْل",
+      "root": "س ه ل",
+      "letters": [
+        {
+          "letter": "سَ",
+          "transliteration": "sa"
+        },
+        {
+          "letter": "هْ",
+          "transliteration": "h"
+        },
+        {
+          "letter": "ل",
+          "transliteration": "l"
+        }
+      ],
+      "transliteration": "sahl"
+    },
+    {
+      "english": "great",
+      "arabic": "عَظِيم",
+      "root": "ع ظ م",
+      "letters": [
+        {
+          "letter": "عَ",
+          "transliteration": "ʿa"
+        },
+        {
+          "letter": "ظِ",
+          "transliteration": "ẓi"
+        },
+        {
+          "letter": "ي",
+          "transliteration": "ii"
+        },
+        {
+          "letter": "م",
+          "transliteration": "m"
+        }
+      ],
+      "transliteration": "ʿaẓiim"
+    }
+  ]
+}

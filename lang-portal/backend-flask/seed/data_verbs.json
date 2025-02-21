@@ -1,0 +1,1069 @@
+{
+  "verbs": [
+    {
+      "english": "to write",
+      "arabic": "كَتَبَ",
+      "root": "ك ت ب",
+      "parts": [
+        {
+          "letter": "كَ",
+          "transliteration": "ka"
+        },
+        {
+          "letter": "تَ",
+          "transliteration": "ta"
+        },
+        {
+          "letter": "بَ",
+          "transliteration": "ba"
+        }
+      ],
+      "transliteration": "kataba"
+    },
+    {
+      "english": "to sightsee",
+      "arabic": "تَفَرَّجَ",
+      "root": "ف ر ج",
+      "parts": [
+        {
+          "letter": "تَ",
+          "transliteration": "ta"
+        },
+        {
+          "letter": "فَ",
+          "transliteration": "fa"
+        },
+        {
+          "letter": "رَّ",
+          "transliteration": "rra"
+        },
+        {
+          "letter": "جَ",
+          "transliteration": "ja"
+        }
+      ],
+      "transliteration": "tafarraja"
+    },
+    {
+      "english": "to listen",
+      "arabic": "سَمِعَ",
+      "root": "س م ع",
+      "parts": [
+        {
+          "letter": "سَ",
+          "transliteration": "sa"
+        },
+        {
+          "letter": "مِ",
+          "transliteration": "mi"
+        },
+        {
+          "letter": "عَ",
+          "transliteration": "ʿa"
+        }
+      ],
+      "transliteration": "samiʿa"
+    },
+    {
+      "english": "to come",
+      "arabic": "جَاءَ",
+      "root": "ج ي ء",
+      "parts": [
+        {
+          "letter": "جَ",
+          "transliteration": "ja"
+        },
+        {
+          "letter": "ا",
+          "transliteration": "aa"
+        },
+        {
+          "letter": "ءَ",
+          "transliteration": "a"
+        }
+      ],
+      "transliteration": "jaa'a"
+    },
+    {
+      "english": "to do",
+      "arabic": "فَعَلَ",
+      "root": "ف ع ل",
+      "parts": [
+        {
+          "letter": "فَ",
+          "transliteration": "fa"
+        },
+        {
+          "letter": "عَ",
+          "transliteration": "ʿa"
+        },
+        {
+          "letter": "لَ",
+          "transliteration": "la"
+        }
+      ],
+      "transliteration": "faʿala"
+    },
+    {
+      "english": "to eat",
+      "arabic": "أَكَلَ",
+      "root": "أ ك ل",
+      "parts": [
+        {
+          "letter": "أَ",
+          "transliteration": "a"
+        },
+        {
+          "letter": "كَ",
+          "transliteration": "ka"
+        },
+        {
+          "letter": "لَ",
+          "transliteration": "la"
+        }
+      ],
+      "transliteration": "akala"
+    },
+    {
+      "english": "to sleep",
+      "arabic": "نَامَ",
+      "root": "ن و م",
+      "parts": [
+        {
+          "letter": "نَ",
+          "transliteration": "na"
+        },
+        {
+          "letter": "ا",
+          "transliteration": "aa"
+        },
+        {
+          "letter": "مَ",
+          "transliteration": "ma"
+        }
+      ],
+      "transliteration": "naama"
+    },
+    {
+      "english": "to drink",
+      "arabic": "شَرِبَ",
+      "root": "ش ر ب",
+      "parts": [
+        {
+          "letter": "شَ",
+          "transliteration": "sha"
+        },
+        {
+          "letter": "رِ",
+          "transliteration": "ri"
+        },
+        {
+          "letter": "بَ",
+          "transliteration": "ba"
+        }
+      ],
+      "transliteration": "shariba"
+    },
+    {
+      "english": "to ride",
+      "arabic": "رَكِبَ",
+      "root": "ر ك ب",
+      "parts": [
+        {
+          "letter": "رَ",
+          "transliteration": "ra"
+        },
+        {
+          "letter": "كِ",
+          "transliteration": "ki"
+        },
+        {
+          "letter": "بَ",
+          "transliteration": "ba"
+        }
+      ],
+      "transliteration": "rakiba"
+    },
+    {
+      "english": "to speak",
+      "arabic": "تَكَلَّمَ",
+      "root": "ك ل م",
+      "parts": [
+        {
+          "letter": "تَ",
+          "transliteration": "ta"
+        },
+        {
+          "letter": "كَ",
+          "transliteration": "ka"
+        },
+        {
+          "letter": "لَّ",
+          "transliteration": "lla"
+        },
+        {
+          "letter": "مَ",
+          "transliteration": "ma"
+        }
+      ],
+      "transliteration": "takallama"
+    },
+    {
+      "english": "to study",
+      "arabic": "دَرَسَ",
+      "root": "د ر س",
+      "parts": [
+        {
+          "letter": "دَ",
+          "transliteration": "da"
+        },
+        {
+          "letter": "رَ",
+          "transliteration": "ra"
+        },
+        {
+          "letter": "سَ",
+          "transliteration": "sa"
+        }
+      ],
+      "transliteration": "darasa"
+    },
+    {
+      "english": "to see",
+      "arabic": "رَأَى",
+      "root": "ر ء ي",
+      "parts": [
+        {
+          "letter": "رَ",
+          "transliteration": "ra"
+        },
+        {
+          "letter": "أَ",
+          "transliteration": "a"
+        },
+        {
+          "letter": "ى",
+          "transliteration": "aa"
+        }
+      ],
+      "transliteration": "ra'aa"
+    },
+    {
+      "english": "to read",
+      "arabic": "قَرَأَ",
+      "root": "ق ر ء",
+      "parts": [
+        {
+          "letter": "قَ",
+          "transliteration": "qa"
+        },
+        {
+          "letter": "رَ",
+          "transliteration": "ra"
+        },
+        {
+          "letter": "أَ",
+          "transliteration": "a"
+        }
+      ],
+      "transliteration": "qara'a"
+    },
+    {
+      "english": "to hang; to call (phone)",
+      "arabic": "عَلَّقَ",
+      "root": "ع ل ق",
+      "parts": [
+        {
+          "letter": "عَ",
+          "transliteration": "ʿa"
+        },
+        {
+          "letter": "لَّ",
+          "transliteration": "lla"
+        },
+        {
+          "letter": "قَ",
+          "transliteration": "qa"
+        }
+      ],
+      "transliteration": "ʿallaqa"
+    },
+    {
+      "english": "to borrow",
+      "arabic": "اِسْتَعَارَ",
+      "root": "ع و ر",
+      "parts": [
+        {
+          "letter": "اِ",
+          "transliteration": "i"
+        },
+        {
+          "letter": "سْ",
+          "transliteration": "s"
+        },
+        {
+          "letter": "تَ",
+          "transliteration": "ta"
+        },
+        {
+          "letter": "عَ",
+          "transliteration": "ʿa"
+        },
+        {
+          "letter": "ا",
+          "transliteration": "aa"
+        },
+        {
+          "letter": "رَ",
+          "transliteration": "ra"
+        }
+      ],
+      "transliteration": "istaʿaara"
+    },
+    {
+      "english": "to lend",
+      "arabic": "أَعَارَ",
+      "root": "ع و ر",
+      "parts": [
+        {
+          "letter": "أَ",
+          "transliteration": "a"
+        },
+        {
+          "letter": "عَ",
+          "transliteration": "ʿa"
+        },
+        {
+          "letter": "ا",
+          "transliteration": "aa"
+        },
+        {
+          "letter": "رَ",
+          "transliteration": "ra"
+        }
+      ],
+      "transliteration": "aʿaara"
+    },
+    {
+      "english": "to learn",
+      "arabic": "تَعَلَّمَ",
+      "root": "ع ل م",
+      "parts": [
+        {
+          "letter": "تَ",
+          "transliteration": "ta"
+        },
+        {
+          "letter": "عَ",
+          "transliteration": "ʿa"
+        },
+        {
+          "letter": "لَّ",
+          "transliteration": "lla"
+        },
+        {
+          "letter": "مَ",
+          "transliteration": "ma"
+        }
+      ],
+      "transliteration": "taʿallama"
+    },
+    {
+      "english": "to teach",
+      "arabic": "عَلَّمَ",
+      "root": "ع ل م",
+      "parts": [
+        {
+          "letter": "عَ",
+          "transliteration": "ʿa"
+        },
+        {
+          "letter": "لَّ",
+          "transliteration": "lla"
+        },
+        {
+          "letter": "مَ",
+          "transliteration": "ma"
+        }
+      ],
+      "transliteration": "ʿallama"
+    },
+    {
+      "english": "to receive",
+      "arabic": "اِسْتَلَمَ",
+      "root": "ل م م",
+      "parts": [
+        {
+          "letter": "اِ",
+          "transliteration": "i"
+        },
+        {
+          "letter": "سْ",
+          "transliteration": "s"
+        },
+        {
+          "letter": "تَ",
+          "transliteration": "ta"
+        },
+        {
+          "letter": "لَ",
+          "transliteration": "la"
+        },
+        {
+          "letter": "مَ",
+          "transliteration": "ma"
+        }
+      ],
+      "transliteration": "istalama"
+    },
+    {
+      "english": "to give",
+      "arabic": "أَعْطَى",
+      "root": "ع ط ي",
+      "parts": [
+        {
+          "letter": "أَ",
+          "transliteration": "a"
+        },
+        {
+          "letter": "عْ",
+          "transliteration": "ʿ"
+        },
+        {
+          "letter": "طَ",
+          "transliteration": "ṭa"
+        },
+        {
+          "letter": "ى",
+          "transliteration": "aa"
+        }
+      ],
+      "transliteration": "aʿṭaa"
+    },
+    {
+      "english": "to turn on",
+      "arabic": "شَغَّلَ",
+      "root": "ش غ ل",
+      "parts": [
+        {
+          "letter": "شَ",
+          "transliteration": "sha"
+        },
+        {
+          "letter": "غَّ",
+          "transliteration": "ghgh"
+        },
+        {
+          "letter": "لَ",
+          "transliteration": "la"
+        }
+      ],
+      "transliteration": "shaghghala"
+    },
+    {
+      "english": "to hurry",
+      "arabic": "أَسْرَعَ",
+      "root": "س ر ع",
+      "parts": [
+        {
+          "letter": "أَ",
+          "transliteration": "a"
+        },
+        {
+          "letter": "سْ",
+          "transliteration": "s"
+        },
+        {
+          "letter": "رَ",
+          "transliteration": "ra"
+        },
+        {
+          "letter": "عَ",
+          "transliteration": "ʿa"
+        }
+      ],
+      "transliteration": "asraʿa"
+    },
+    {
+      "english": "to help",
+      "arabic": "سَاعَدَ",
+      "root": "س ع د",
+      "parts": [
+        {
+          "letter": "سَ",
+          "transliteration": "sa"
+        },
+        {
+          "letter": "ا",
+          "transliteration": "aa"
+        },
+        {
+          "letter": "عَ",
+          "transliteration": "ʿa"
+        },
+        {
+          "letter": "دَ",
+          "transliteration": "da"
+        }
+      ],
+      "transliteration": "saaʿada"
+    },
+    {
+      "english": "to take",
+      "arabic": "أَخَذَ",
+      "root": "أ خ ذ",
+      "parts": [
+        {
+          "letter": "أَ",
+          "transliteration": "a"
+        },
+        {
+          "letter": "خَ",
+          "transliteration": "kha"
+        },
+        {
+          "letter": "ذَ",
+          "transliteration": "dha"
+        }
+      ],
+      "transliteration": "akhadha"
+    }
+,
+    {
+      "english": "to hold",
+      "arabic": "مَسَكَ",
+      "root": "م س ك",
+      "parts": [
+        {
+          "letter": "مَ",
+          "transliteration": "ma"
+        },
+        {
+          "letter": "سَ",
+          "transliteration": "sa"
+        },
+        {
+          "letter": "كَ",
+          "transliteration": "ka"
+        }
+      ],
+      "transliteration": "masaka"
+    },
+    {
+      "english": "to wait",
+      "arabic": "اِنْتَظَرَ",
+      "root": "ن ظ ر",
+      "parts": [
+        {
+          "letter": "اِ",
+          "transliteration": "i"
+        },
+        {
+          "letter": "نْ",
+          "transliteration": "n"
+        },
+        {
+          "letter": "تَ",
+          "transliteration": "ta"
+        },
+        {
+          "letter": "ظَ",
+          "transliteration": "ẓa"
+        },
+        {
+          "letter": "رَ",
+          "transliteration": "ra"
+        }
+      ],
+      "transliteration": "intaẓara"
+    },
+    {
+      "english": "to walk",
+      "arabic": "مَشَى",
+      "root": "م ش ي",
+      "parts": [
+        {
+          "letter": "مَ",
+          "transliteration": "ma"
+        },
+        {
+          "letter": "شَ",
+          "transliteration": "sha"
+        },
+        {
+          "letter": "ى",
+          "transliteration": "aa"
+        }
+      ],
+      "transliteration": "mashaa"
+    },
+    {
+      "english": "to close",
+      "arabic": "أَغْلَقَ",
+      "root": "غ ل ق",
+      "parts": [
+        {
+          "letter": "أَ",
+          "transliteration": "a"
+        },
+        {
+          "letter": "غْ",
+          "transliteration": "gh"
+        },
+        {
+          "letter": "لَ",
+          "transliteration": "la"
+        },
+        {
+          "letter": "قَ",
+          "transliteration": "qa"
+        }
+      ],
+      "transliteration": "aghlaqa"
+    },
+    {
+      "english": "to rest",
+      "arabic": "اِسْتَرَاحَ",
+      "root": "ر و ح",
+      "parts": [
+        {
+          "letter": "اِ",
+          "transliteration": "i"
+        },
+        {
+          "letter": "سْ",
+          "transliteration": "s"
+        },
+        {
+          "letter": "تَ",
+          "transliteration": "ta"
+        },
+        {
+          "letter": "رَ",
+          "transliteration": "ra"
+        },
+        {
+          "letter": "ا",
+          "transliteration": "aa"
+        },
+        {
+          "letter": "حَ",
+          "transliteration": "ḥa"
+        }
+      ],
+      "transliteration": "istiraaḥa"
+    },
+    {
+      "english": "to finish",
+      "arabic": "اِنْتَهَى",
+      "root": "ن ه ي",
+      "parts": [
+        {
+          "letter": "اِ",
+          "transliteration": "i"
+        },
+        {
+          "letter": "نْ",
+          "transliteration": "n"
+        },
+        {
+          "letter": "تَ",
+          "transliteration": "ta"
+        },
+        {
+          "letter": "هَ",
+          "transliteration": "ha"
+        },
+        {
+          "letter": "ى",
+          "transliteration": "aa"
+        }
+      ],
+      "transliteration": "intahaa"
+    },
+    {
+      "english": "to work",
+      "arabic": "عَمِلَ",
+      "root": "ع م ل",
+      "parts": [
+        {
+          "letter": "عَ",
+          "transliteration": "ʿa"
+        },
+        {
+          "letter": "مِ",
+          "transliteration": "mi"
+        },
+        {
+          "letter": "لَ",
+          "transliteration": "la"
+        }
+      ],
+      "transliteration": "ʿamila"
+    },
+    {
+      "english": "to open",
+      "arabic": "فَتَحَ",
+      "root": "ف ت ح",
+      "parts": [
+        {
+          "letter": "فَ",
+          "transliteration": "fa"
+        },
+        {
+          "letter": "تَ",
+          "transliteration": "ta"
+        },
+        {
+          "letter": "حَ",
+          "transliteration": "ḥa"
+        }
+      ],
+      "transliteration": "fataḥa"
+    },
+    {
+      "english": "to call",
+      "arabic": "نَادَى",
+      "root": "ن د و",
+      "parts": [
+        {
+          "letter": "نَ",
+          "transliteration": "na"
+        },
+        {
+          "letter": "ا",
+          "transliteration": "aa"
+        },
+        {
+          "letter": "دَ",
+          "transliteration": "da"
+        },
+        {
+          "letter": "ى",
+          "transliteration": "aa"
+        }
+      ],
+      "transliteration": "naadaa"
+    },
+    {
+      "english": "to send",
+      "arabic": "أَرْسَلَ",
+      "root": "ر س ل",
+      "parts": [
+        {
+          "letter": "أَ",
+          "transliteration": "a"
+        },
+        {
+          "letter": "رْ",
+          "transliteration": "r"
+        },
+        {
+          "letter": "سَ",
+          "transliteration": "sa"
+        },
+        {
+          "letter": "لَ",
+          "transliteration": "la"
+        }
+      ],
+      "transliteration": "arsala"
+    },
+    {
+      "english": "to cut",
+      "arabic": "قَطَعَ",
+      "root": "ق ط ع",
+      "parts": [
+        {
+          "letter": "قَ",
+          "transliteration": "qa"
+        },
+        {
+          "letter": "طَ",
+          "transliteration": "ṭa"
+        },
+        {
+          "letter": "عَ",
+          "transliteration": "ʿa"
+        }
+      ],
+      "transliteration": "qaṭaʿa"
+    },
+    {
+      "english": "to take (a photo)",
+      "arabic": "صَوَّرَ",
+      "root": "ص و ر",
+      "parts": [
+        {
+          "letter": "صَ",
+          "transliteration": "ṣa"
+        },
+        {
+          "letter": "وَّ",
+          "transliteration": "wwa"
+        },
+        {
+          "letter": "رَ",
+          "transliteration": "ra"
+        }
+      ],
+      "transliteration": "ṣawwara"
+    },
+    {
+      "english": "to say",
+      "arabic": "قَالَ",
+      "root": "ق و ل",
+      "parts": [
+        {
+          "letter": "قَ",
+          "transliteration": "qa"
+        },
+        {
+          "letter": "ا",
+          "transliteration": "aa"
+        },
+        {
+          "letter": "لَ",
+          "transliteration": "la"
+        }
+      ],
+      "transliteration": "qaala"
+    },
+    {
+      "english": "to be able to see",
+      "arabic": "شَاهَدَ",
+      "root": "ش ه د",
+      "parts": [
+        {
+          "letter": "شَ",
+          "transliteration": "sha"
+        },
+        {
+          "letter": "ا",
+          "transliteration": "aa"
+        },
+        {
+          "letter": "هَ",
+          "transliteration": "ha"
+        },
+        {
+          "letter": "دَ",
+          "transliteration": "da"
+        }
+      ],
+      "transliteration": "shaahada"
+    },
+    {
+      "english": "to make",
+      "arabic": "صَنَعَ",
+      "root": "ص ن ع",
+      "parts": [
+        {
+          "letter": "صَ",
+          "transliteration": "ṣa"
+        },
+        {
+          "letter": "نَ",
+          "transliteration": "na"
+        },
+        {
+          "letter": "عَ",
+          "transliteration": "ʿa"
+        }
+      ],
+      "transliteration": "ṣanaʿa"
+    },
+    {
+      "english": "to use",
+      "arabic": "اِسْتَخْدَمَ",
+      "root": "خ د م",
+      "parts": [
+        {
+          "letter": "اِ",
+          "transliteration": "i"
+        },
+        {
+          "letter": "سْ",
+          "transliteration": "s"
+        },
+        {
+          "letter": "تَ",
+          "transliteration": "ta"
+        },
+        {
+          "letter": "خْ",
+          "transliteration": "kh"
+        },
+        {
+          "letter": "دَ",
+          "transliteration": "da"
+        },
+        {
+          "letter": "مَ",
+          "transliteration": "ma"
+        }
+      ],
+      "transliteration": "istakhdama"
+    },
+    {
+      "english": "to exist (inanimate)",
+      "arabic": "يُوجَدُ",
+      "root": "و ج د",
+      "parts": [
+        {
+          "letter": "يُ",
+          "transliteration": "yu"
+        },
+        {
+          "letter": "و",
+          "transliteration": "w"
+        },
+        {
+          "letter": "جَ",
+          "transliteration": "ja"
+        },
+        {
+          "letter": "دُ",
+          "transliteration": "du"
+        }
+      ],
+      "transliteration": "yuujadu"
+    },
+    {
+      "english": "to exist (animate)",
+      "arabic": "كَانَ",
+      "root": "ك و ن",
+      "parts": [
+        {
+          "letter": "كَ",
+          "transliteration": "ka"
+        },
+        {
+          "letter": "ا",
+          "transliteration": "aa"
+        },
+        {
+          "letter": "نَ",
+          "transliteration": "na"
+        }
+      ],
+      "transliteration": "kaana"
+    },
+    {
+      "english": "to be troubled",
+      "arabic": "اِنْزَعَجَ",
+      "root": "ز ع ج",
+      "parts": [
+        {
+          "letter": "اِ",
+          "transliteration": "i"
+        },
+        {
+          "letter": "نْ",
+          "transliteration": "n"
+        },
+        {
+          "letter": "زَ",
+          "transliteration": "za"
+        },
+        {
+          "letter": "عَ",
+          "transliteration": "ʿa"
+        },
+        {
+          "letter": "جَ",
+          "transliteration": "ja"
+        }
+      ],
+      "transliteration": "inzaʿaja"
+    },
+    {
+      "english": "to swim",
+      "arabic": "سَبَحَ",
+      "root": "س ب ح",
+      "parts": [
+        {
+          "letter": "سَ",
+          "transliteration": "sa"
+        },
+        {
+          "letter": "بَ",
+          "transliteration": "ba"
+        },
+        {
+          "letter": "حَ",
+          "transliteration": "ḥa"
+        }
+      ],
+      "transliteration": "sabaḥa"
+    },
+    {
+      "english": "to stroll",
+      "arabic": "تَمَشَّى",
+      "root": "م ش ي",
+      "parts": [
+        {
+          "letter": "تَ",
+          "transliteration": "ta"
+        },
+        {
+          "letter": "مَ",
+          "transliteration": "ma"
+        },
+        {
+          "letter": "شَّ",
+          "transliteration": "shsha"
+        },
+        {
+          "letter": "ى",
+          "transliteration": "aa"
+        }
+      ],
+      "transliteration": "tamashshaa"
+    },
+    {
+      "english": "to drive",
+      "arabic": "سَاقَ",
+      "root": "س و ق",
+      "parts": [
+        {
+          "letter": "سَ",
+          "transliteration": "sa"
+        },
+        {
+          "letter": "ا",
+          "transliteration": "aa"
+        },
+        {
+          "letter": "قَ",
+          "transliteration": "qa"
+        }
+      ],
+      "transliteration": "saaqa"
+    },
+    {
+      "english": "to meet; to fit",
+      "arabic": "نَاسَبَ",
+      "root": "ن س ب",
+      "parts": [
+        {
+          "letter": "نَ",
+          "transliteration": "na"
+        },
+        {
+          "letter": "ا",
+          "transliteration": "aa"
+        },
+        {
+          "letter": "سَ",
+          "transliteration": "sa"
+        },
+        {
+          "letter": "بَ",
+          "transliteration": "ba"
+        }
+      ],
+      "transliteration": "naasaba"
+    }
+  ]
+}
