@@ -79,7 +79,7 @@ def load(app):
       
       # Query to fetch the word and its details
       cursor.execute('''
-        SELECT w.id, w.english, w.arabic, w.root,
+        SELECT w.id, w.english, w.arabic, w.root, w.transliteration,
                COALESCE(r.correct_count, 0) AS correct_count,
                COALESCE(r.wrong_count, 0) AS wrong_count,
                GROUP_CONCAT(DISTINCT g.id || '::' || g.name) as groups
@@ -109,9 +109,10 @@ def load(app):
       return jsonify({
         "word": {
           "id": word["id"],
-          "kanji": word["english"],
-          "romaji": word["arabic"],
-          "english": word["root"],
+          "english": word["english"],
+          "arabic": word["arabic"],
+          "transliteration": word["transliteration"],
+          "root": word["root"],
           "correct_count": word["correct_count"],
           "wrong_count": word["wrong_count"],
           "groups": groups
