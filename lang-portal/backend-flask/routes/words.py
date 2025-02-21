@@ -109,9 +109,9 @@ def load(app):
       return jsonify({
         "word": {
           "id": word["id"],
-          "kanji": word["english"],
-          "romaji": word["arabic"],
-          "english": word["root"],
+          "english": word["english"],
+          "arabic": word["arabic"],
+          "root": word["root"],
           "correct_count": word["correct_count"],
           "wrong_count": word["wrong_count"],
           "groups": groups
