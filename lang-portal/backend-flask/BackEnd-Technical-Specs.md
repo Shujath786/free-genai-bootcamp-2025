@@ -21,11 +21,7 @@
 
 ## Directory Structure:
 
-
-
-
-## Directory Structure:
-
+```
 backend-flask/
 │
 ├── app.py                 # Main application entry point
@@ -66,7 +62,7 @@ backend-flask/
     ├── BackEnd-Technical-Specs.md
     ├── FrontEnd-Technical_Specs.md
     └── Readme.md
-
+```
 ## Database Schema:
 
 We have the following tables:
