@@ -19,6 +19,49 @@
 - There will be no authentication or authorization.
 - There will be a single user.
 
+## Directory Structure:
+
+backend-flask/
+│
+├── app.py                 # Main application entry point
+├── migrate.py            # Database migration script
+├── tasks.py             # Task definitions
+├── requirements.txt     # Python dependencies
+│
+├── lib/                 # Core library modules
+│   └── db.py           # Database connection and operations
+│
+├── routes/             # API route handlers
+│   ├── dashboard.py    # Dashboard endpoints
+│   ├── groups.py       # Word groups endpoints
+│   ├── study_activities.py  # Study activities endpoints
+│   ├── study_sessions.py   # Study sessions endpoints
+│   └── words.py           # Words endpoints
+│
+├── seed/               # Seed data for database
+│   ├── data_adjectives.json  # Initial adjectives data
+│   ├── data_verbs.json      # Initial verbs data
+│   └── study_activities.json # Initial study activities
+│
+├── sql/               # SQL queries and schema
+│   └── setup/         # Database setup scripts
+│       ├── create_table_groups.sql
+│       ├── create_table_study_activities.sql
+│       ├── create_table_study_sessions.sql
+│       ├── create_table_word_groups.sql
+│       ├── create_table_word_review_items.sql
+│       ├── create_table_word_reviews.sql
+│       ├── create_table_words.sql
+│       ├── create_word_reviews.sql
+│       └── insert_study_activities.sql
+│
+├── words.db           # SQLite database file
+│
+└── docs/             # Documentation
+    ├── BackEnd-Technical-Specs.md
+    ├── FrontEnd-Technical_Specs.md
+    └── Readme.md
+
 ## Database Schema:
 
 We have the following tables:
