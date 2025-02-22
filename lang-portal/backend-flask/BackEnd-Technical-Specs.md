@@ -10,7 +10,7 @@
 - A unified launchpad to launch different learning apps.
 
 
-## Technical requirements:
+## Technical Requirements:
 
 - The backend will be built using Python3.
 - The database will be sqlite3.
@@ -18,6 +18,11 @@
 - The API will always return JSON.
 - There will be no authentication or authorization.
 - There will be a single user.
+
+## Directory Structure:
+
+
+
 
 ## Directory Structure:
 
