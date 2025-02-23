@@ -13,35 +13,57 @@ def load(app):
             cursor.execute('''
                 SELECT 
                     ss.id,
+                    ss.word_id,
+                    w.english as word_english,
                     ss.group_id,
+                    g.name as group_name,
+                    ss.activity_id,
                     sa.name as activity_name,
-                    ss.created_at,
-                    COUNT(CASE WHEN wri.correct = 1 THEN 1 END) as correct_count,
-                    COUNT(CASE WHEN wri.correct = 0 THEN 1 END) as wrong_count
+                    ss.correct,
+                    ss.timestamp,
+                    wr.correct_count,
+                    wr.wrong_count
                 FROM study_sessions ss
-                JOIN study_activities sa ON ss.study_activity_id = sa.id
-                LEFT JOIN word_review_items wri ON ss.id = wri.study_session_id
-                GROUP BY ss.id
-                ORDER BY ss.created_at DESC
+                JOIN words w ON w.id = ss.word_id
+                JOIN groups g ON g.id = ss.group_id
+                JOIN study_activities sa ON ss.activity_id = sa.id
+                LEFT JOIN word_reviews wr ON w.id = wr.word_id
+                ORDER BY ss.timestamp DESC
                 LIMIT 1
             ''')
             
             session = cursor.fetchone()
             
             if not session:
-                return jsonify(None)
+                return jsonify({
+                    'message': 'No study sessions found'
+                }), 404
             
             return jsonify({
-                "id": session["id"],
-                "group_id": session["group_id"],
-                "activity_name": session["activity_name"],
-                "created_at": session["created_at"],
-                "correct_count": session["correct_count"],
-                "wrong_count": session["wrong_count"]
+                'session': {
+                    'id': session['id'],
+                    'word': {
+                        'id': session['word_id'],
+                        'english': session['word_english'],
+                        'correct_count': session['correct_count'],
+                        'wrong_count': session['wrong_count']
+                    },
+                    'group': {
+                        'id': session['group_id'],
+                        'name': session['group_name']
+                    },
+                    'activity': {
+                        'id': session['activity_id'],
+                        'name': session['activity_name']
+                    },
+                    'correct': bool(session['correct']),
+                    'timestamp': session['timestamp']
+                }
             })
             
         except Exception as e:
-            return jsonify({"error": str(e)}), 500
+            app.logger.error(f"Error in get_recent_session: {str(e)}")
+            return jsonify({'error': str(e)}), 500
 
     @app.route('/dashboard/stats', methods=['GET'])
     @cross_origin()
