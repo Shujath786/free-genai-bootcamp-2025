@@ -1,0 +1,102 @@
+To test the API endpoints, 
+use pytest with the pytest-flask extension to write API tests.
+
+STEP 1
+
+Make the following entries in requirements.txt
+ pytest>=7.0.0
+pytest-flask>=1.2.0
+
+STEP 2
+
+Create a new file test_api_endpoints.py with the following content -
+
+import pytest
+from app import create_app
+
+@pytest.fixture
+def app():
+    app = create_app()
+    return app
+
+@pytest.fixture
+def client(app):
+    return app.test_client()
+
+def test_get_words_endpoint(client):
+    response = client.get('/words')
+    assert response.status_code == 200
+
+def test_get_single_word_endpoint(client):
+    # Assuming there's a word with ID 1 in the database
+    response = client.get('/words/1')
+    assert response.status_code == 200
+
+def test_get_groups_endpoint(client):
+    response = client.get('/groups')
+    assert response.status_code == 200
+
+def test_get_single_group_endpoint(client):
+    # Assuming there's a group with ID 1
+    response = client.get('/groups/1')
+    assert response.status_code == 200
+
+def test_get_study_activities_endpoint(client):
+    response = client.get('/study_activities')
+    assert response.status_code == 200
+
+def test_get_study_sessions_endpoint(client):
+    response = client.get('/study_sessions')
+    assert response.status_code == 200
+
+def test_get_dashboard_endpoint(client):
+    response = client.get('/dashboard')
+    assert response.status_code == 200
+	
+STEP 3
+
+Create a conftest.py file in the same directory to configure pytest -
+
+import pytest
+import os
+import tempfile
+from app import create_app
+from lib.db import init_db
+
+@pytest.fixture
+def app():
+    db_fd, db_path = tempfile.mkstemp()
+    app = create_app({
+        'TESTING': True,
+        'DATABASE': db_path,
+    })
+
+    # Initialize the test database
+    with app.app_context():
+        init_db()
+        # Add any test data here if needed
+
+    yield app
+
+    os.close(db_fd)
+    os.unlink(db_path)
+
+@pytest.fixture
+def client(app):
+    return app.test_client()
+
+@pytest.fixture
+def runner(app):
+    return app.test_cli_runner()
+
+STEP 4
+
+To run the tests -
+
+pip install -r requirements.txt( at the terminal under backend_flask directory)
+
+Then, run the tests
+pytest -v
+
+ run only our application tests to avoid the colorama errors
+python -m pytest tests/test_api_endpoints.py -v	

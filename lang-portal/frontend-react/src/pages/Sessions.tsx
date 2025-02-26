@@ -1,41 +1,37 @@
+import React from 'react';
 
-import { Card } from "@/components/ui/card";
-
-const Sessions = () => {
-  const sampleSessions = [
-    { date: "March 15, 2024", duration: "25 mins", wordsReviewed: 30, accuracy: "92%" },
-    { date: "March 14, 2024", duration: "15 mins", wordsReviewed: 20, accuracy: "85%" },
-    { date: "March 13, 2024", duration: "40 mins", wordsReviewed: 45, accuracy: "88%" },
-    { date: "March 12, 2024", duration: "20 mins", wordsReviewed: 25, accuracy: "90%" },
-  ];
-
+export function Sessions() {
   return (
-    <div className="space-y-6 animate-slideIn">
-      <header>
-        <h1 className="text-3xl font-bold text-gray-900 dark:text-white">Sessions</h1>
-        <p className="mt-2 text-gray-600 dark:text-gray-400">Your study history</p>
-      </header>
-      
-      <Card className="p-6">
-        <div className="grid gap-4">
-          <div className="grid grid-cols-4 font-medium text-gray-700 dark:text-gray-300">
-            <div>Date</div>
-            <div>Duration</div>
-            <div>Words Reviewed</div>
-            <div>Accuracy</div>
-          </div>
-          {sampleSessions.map((session, index) => (
-            <div key={index} className="grid grid-cols-4 border-t py-3 text-gray-600 dark:text-gray-400">
-              <div className="text-primary font-medium">{session.date}</div>
-              <div>{session.duration}</div>
-              <div>{session.wordsReviewed}</div>
-              <div>{session.accuracy}</div>
-            </div>
-          ))}
-        </div>
-      </Card>
+    <div className="space-y-6">
+      <div className="border-b border-gray-200 pb-5">
+        <h2 className="text-2xl font-bold leading-7 text-gray-900">Study Sessions</h2>
+        <p className="mt-1 text-sm leading-6 text-gray-500">Review your learning history</p>
+      </div>
+
+      <div className="bg-white shadow-sm ring-1 ring-gray-900/5 rounded-lg overflow-hidden">
+        <table className="min-w-full divide-y divide-gray-300">
+          <thead>
+            <tr>
+              <th scope="col" className="py-3.5 pl-4 pr-3 text-left text-sm font-semibold text-gray-900">ID</th>
+              <th scope="col" className="px-3 py-3.5 text-left text-sm font-semibold text-gray-900">Activity</th>
+              <th scope="col" className="px-3 py-3.5 text-left text-sm font-semibold text-gray-900">Group</th>
+              <th scope="col" className="px-3 py-3.5 text-left text-sm font-semibold text-gray-900">Start Time</th>
+              <th scope="col" className="px-3 py-3.5 text-left text-sm font-semibold text-gray-900">Duration</th>
+              <th scope="col" className="px-3 py-3.5 text-left text-sm font-semibold text-gray-900">Items</th>
+            </tr>
+          </thead>
+          <tbody className="divide-y divide-gray-200">
+            <tr>
+              <td className="whitespace-nowrap py-4 pl-4 pr-3 text-sm font-medium text-gray-900">#123</td>
+              <td className="whitespace-nowrap px-3 py-4 text-sm text-gray-500">Vocabulary Quiz</td>
+              <td className="whitespace-nowrap px-3 py-4 text-sm text-gray-500">Basic Greetings</td>
+              <td className="whitespace-nowrap px-3 py-4 text-sm text-gray-500">2 hours ago</td>
+              <td className="whitespace-nowrap px-3 py-4 text-sm text-gray-500">10 minutes</td>
+              <td className="whitespace-nowrap px-3 py-4 text-sm text-gray-500">20</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
     </div>
   );
-};
-
-export default Sessions;
+}

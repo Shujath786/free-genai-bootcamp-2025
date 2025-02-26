@@ -3,8 +3,8 @@ from flask_cors import cross_origin
 import json
 
 def load(app):
-    # Endpoint: GET /words with pagination (50 words per page)
-    @app.route('/words', methods=['GET'])
+    # Endpoint: GET /api/words with pagination (50 words per page)
+    @app.route('/api/words', methods=['GET'])
     @cross_origin()
     def get_words():
         try:
@@ -75,7 +75,45 @@ def load(app):
             app.logger.error(f"Error in get_words: {str(e)}")
             return jsonify({'error': str(e)}), 500
 
-    @app.route('/words/<int:word_id>', methods=['GET'])
+    # Endpoint: POST /api/words to create a new word
+    @app.route('/api/words', methods=['POST'])
+    @cross_origin()
+    def create_word():
+        try:
+            data = request.get_json()
+            if not data or 'word' not in data or 'meaning' not in data:
+                return jsonify({'error': 'Missing required fields: word and meaning'}), 400
+
+            cursor = app.db.cursor()
+            
+            # Check if the word already exists
+            cursor.execute('SELECT id FROM words WHERE english = ?', (data['word'],))
+            if cursor.fetchone():
+                return jsonify({'error': 'Word already exists'}), 409
+
+            # Insert the new word
+            cursor.execute('''
+                INSERT INTO words (english, arabic)
+                VALUES (?, ?)
+            ''', (data['word'], data['meaning']))
+            
+            app.db.commit()
+            word_id = cursor.lastrowid
+
+            # Return the created word
+            cursor.execute('''
+                SELECT id, english as word, arabic as meaning
+                FROM words WHERE id = ?
+            ''', (word_id,))
+            
+            new_word = cursor.fetchone()
+            return jsonify(new_word), 201
+
+        except Exception as e:
+            app.db.rollback()
+            return jsonify({'error': str(e)}), 500
+
+    @app.route('/api/words/<int:word_id>', methods=['GET'])
     @cross_origin()
     def get_word(word_id):
         try:

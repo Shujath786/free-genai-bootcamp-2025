@@ -1,112 +1,66 @@
-import { useMutation, useQuery, useQueryClient } from "@tanstack/react-query";
-import { Card } from "@/components/ui/card";
-import { Button } from "@/components/ui/button";
-import { Input } from "@/components/ui/input";
-import { Label } from "@/components/ui/label";
-import { useToast } from "@/components/ui/use-toast";
-import { wordsAPI } from "@/lib/api/endpoints/words";
-import { useState } from "react";
+import React, { useEffect, useState } from 'react';
+import { fetchWords } from '../services/api'; // Import the API service
+import axios from 'axios';
 
-const Words = () => {
-  const { toast } = useToast();
-  const queryClient = useQueryClient();
-  const [newWord, setNewWord] = useState({ word: "", meaning: "" });
+export const Words: React.FC = () => {
+  const [words, setWords] = useState<any[]>([]); // State to hold words
+  const [loading, setLoading] = useState(true); // Loading state
 
-  const { data: words, isLoading } = useQuery({
-    queryKey: ["words"],
-    queryFn: () => wordsAPI.getWords(),
-  });
+  useEffect(() => {
+    const getWords = async () => {
+      try {
+        const data = await fetchWords();
+        console.log('Fetched words:', data); // Log the fetched data
+        setWords(data.words); // Ensure you're setting the correct structure
+      } catch (error) {
+        console.error('Error fetching words:', error);
+        if (axios.isAxiosError(error)) {
+          console.error('Error message:', error.message);
+          console.error('Error response:', error.response);
+        } else {
+          console.error('Unexpected error:', error);
+        }
+      } finally {
+        setLoading(false);
+      }
+    };
 
-  const addWordMutation = useMutation({
-    mutationFn: (wordData: { word: string; meaning: string }) =>
-      wordsAPI.createWord(wordData),
-    onSuccess: () => {
-      toast({
-        title: "Success",
-        description: "Word added successfully",
-      });
-      setNewWord({ word: "", meaning: "" });
-      // Invalidate and refetch
-      queryClient.invalidateQueries({ queryKey: ["words"] });
-    },
-    onError: (error) => {
-      toast({
-        title: "Error",
-        description: "Failed to add word",
-        variant: "destructive",
-      });
-    },
-  });
+    getWords();
+  }, []);
 
-  const handleSubmit = (e: React.FormEvent) => {
-    e.preventDefault();
-    if (newWord.word && newWord.meaning) {
-      addWordMutation.mutate(newWord);
-    }
-  };
+  if (loading) return <div>Loading...</div>; // Loading state
 
   return (
-    <div className="space-y-6 animate-slideIn">
-      <header>
-        <h1 className="text-3xl font-bold text-gray-900 dark:text-white">Words</h1>
-        <p className="mt-2 text-gray-600 dark:text-gray-400">Manage your vocabulary</p>
-      </header>
+    <div className="space-y-6">
+      <div className="border-b border-gray-200 pb-5">
+        <h2 className="text-2xl font-bold leading-7 text-gray-900">Words</h2>
+        <p className="mt-1 text-sm leading-6 text-gray-500">Browse and manage your vocabulary</p>
+      </div>
 
-      <Card className="p-6">
-        <form onSubmit={handleSubmit} className="space-y-4 mb-6">
-          <div className="grid grid-cols-2 gap-4">
-            <div className="space-y-2">
-              <Label htmlFor="word">Word</Label>
-              <Input
-                id="word"
-                value={newWord.word}
-                onChange={(e) => setNewWord({ ...newWord, word: e.target.value })}
-                placeholder="Enter word"
-              />
-            </div>
-            <div className="space-y-2">
-              <Label htmlFor="meaning">Meaning</Label>
-              <Input
-                id="meaning"
-                value={newWord.meaning}
-                onChange={(e) => setNewWord({ ...newWord, meaning: e.target.value })}
-                placeholder="Enter meaning"
-              />
-            </div>
-          </div>
-          <Button 
-            type="submit" 
-            disabled={addWordMutation.isPending}
-            className="w-full"
-          >
-            {addWordMutation.isPending ? "Adding..." : "Add Word"}
-          </Button>
-        </form>
-
-        {isLoading ? (
-          <div className="text-center py-4">Loading...</div>
-        ) : (
-          <div className="grid gap-4">
-            <div className="grid grid-cols-3 font-medium text-gray-700 dark:text-gray-300">
-              <div>Word</div>
-              <div>Meaning</div>
-              <div>Actions</div>
-            </div>
-            {words?.data?.map((word) => (
-              <div key={word.id} className="grid grid-cols-3 border-t py-3 text-gray-600 dark:text-gray-400">
-                <div className="text-primary font-medium">{word.word}</div>
-                <div>{word.meaning}</div>
-                <div>
-                  <Button variant="ghost" size="sm">Edit</Button>
-                  <Button variant="ghost" size="sm" className="text-destructive">Delete</Button>
-                </div>
-              </div>
+      <div className="bg-white shadow-sm ring-1 ring-gray-900/5 rounded-lg">
+        <table className="min-w-full divide-y divide-gray-300">
+          <thead>
+            <tr>
+              <th scope="col" className="py-3.5 pl-4 pr-3 text-left text-sm font-semibold text-gray-900">English</th>
+              <th scope="col" className="px-3 py-3.5 text-left text-sm font-semibold text-gray-900">Arabic</th>
+              <th scope="col" className="px-3 py-3.5 text-left text-sm font-semibold text-gray-900">Root</th>
+              <th scope="col" className="px-3 py-3.5 text-left text-sm font-semibold text-gray-900">Correct</th>
+              <th scope="col" className="px-3 py-3.5 text-left text-sm font-semibold text-gray-900">Wrong</th>
+            </tr>
+          </thead>
+          <tbody className="divide-y divide-gray-200">
+            {words.map((word) => (
+              <tr key={word.id}>
+                <td className="whitespace-nowrap py-4 pl-4 pr-3 text-sm font-medium text-gray-900">{word.english}</td>
+                <td className="whitespace-nowrap px-3 py-4 text-sm text-gray-900 font-amiri">{word.arabic}</td>
+                <td className="whitespace-nowrap px-3 py-4 text-sm text-gray-500">{word.root}</td>
+                <td className="whitespace-nowrap px-3 py-4 text-sm text-green-600">{word.correct}</td>
+                <td className="whitespace-nowrap px-3 py-4 text-sm text-red-600">{word.wrong}</td>
+              </tr>
             ))}
-          </div>
-        )}
-      </Card>
+          </tbody>
+        </table>
+      </div>
     </div>
   );
-};
-
-export default Words;
+}

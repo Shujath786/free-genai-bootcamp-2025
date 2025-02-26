@@ -1,45 +1,45 @@
-import { QueryClient, QueryClientProvider } from '@tanstack/react-query';
-import { Toaster } from "@/components/ui/toaster";
-import { Toaster as Sonner } from "@/components/ui/sonner";
-import { TooltipProvider } from "@/components/ui/tooltip";
-import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
-import { Layout } from "./components/layout/Layout";
-import Dashboard from "./pages/Dashboard";
-import StudyActivities from "./pages/StudyActivities";
-import Words from "./pages/Words";
-import Groups from "./pages/Groups";
-import Sessions from "./pages/Sessions";
-import Settings from "./pages/Settings";
-import NotFound from "./pages/NotFound";
+import React from 'react';
+import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
+import { Layout } from './components/Layout';
+import { Dashboard } from './pages/Dashboard';
+import { StudyActivities } from './pages/StudyActivities';
+import { StudyActivityDetail } from './pages/StudyActivityDetail';
+import { StudyActivityLaunch } from './pages/StudyActivityLaunch';
+import { StudySession } from './pages/StudySession';
+import { Words } from './pages/Words';
+import { WordGroups } from './pages/WordGroups';
+import { Sessions } from './pages/Sessions';
+import { Settings } from './pages/Settings';
+import { Book, GraduationCap, LayoutGrid, Settings as SettingsIcon, Clock, FolderOpen } from 'lucide-react';
 
-const queryClient = new QueryClient({
-  defaultOptions: {
-    queries: {
-      staleTime: 5 * 60 * 1000, // 5 minutes
-      retry: 1,
-    },
-  },
-});
+const navigation = [
+  { name: 'Dashboard', href: '/dashboard', icon: LayoutGrid },
+  { name: 'Study Activities', href: '/study-activities', icon: GraduationCap },
+  { name: 'Words', href: '/words', icon: Book },
+  { name: 'Word Groups', href: '/word-groups', icon: FolderOpen },
+  { name: 'Sessions', href: '/sessions', icon: Clock },
+  { name: 'Settings', href: '/settings', icon: SettingsIcon },
+];
 
-const App = () => (
-  <QueryClientProvider client={queryClient}>
-    <TooltipProvider>
-      <Toaster />
-      <Sonner />
-      <BrowserRouter>
-        <Routes>
-          <Route path="/" element={<Navigate to="/dashboard" replace />} />
-          <Route path="/dashboard" element={<Layout><Dashboard /></Layout>} />
-          <Route path="/study-activities" element={<Layout><StudyActivities /></Layout>} />
-          <Route path="/words" element={<Layout><Words /></Layout>} />
-          <Route path="/groups" element={<Layout><Groups /></Layout>} />
-          <Route path="/study_sessions" element={<Layout><Sessions /></Layout>} />
-          <Route path="/settings" element={<Layout><Settings /></Layout>} />
-          <Route path="*" element={<NotFound />} />
-        </Routes>
-      </BrowserRouter>
-    </TooltipProvider>
-  </QueryClientProvider>
-);
+function App() {
+  return (
+    <Router>
+      <Routes>
+        <Route path="/" element={<Navigate to="/dashboard" replace />} />
+        <Route element={<Layout navigation={navigation} />}>
+          <Route path="/dashboard/*" element={<Dashboard />} />
+          <Route path="/study-activities" element={<StudyActivities />} />
+          <Route path="/study-activities/:id" element={<StudyActivityDetail />} />
+          <Route path="/study-activities/:id/launch" element={<StudyActivityLaunch />} />
+          <Route path="/words" element={<Words />} />
+          <Route path="/word-groups" element={<WordGroups />} />
+          <Route path="/sessions" element={<Sessions />} />
+          <Route path="/settings" element={<Settings />} />
+        </Route>
+        <Route path="/sessions/:sessionId" element={<StudySession />} />
+      </Routes>
+    </Router>
+  );
+}
 
 export default App;
