@@ -45,12 +45,12 @@ def app():
         try:
             # Insert test data
             test_parts = json.dumps({"verb": "test", "noun": "test"})
-            
+            test_parts_of_speech = json.dumps({"verb": "verb", "noun": "noun"})  # Example parts of speech
             # Insert word and get its ID
             cursor.execute('''
-                INSERT INTO words (english, arabic, root, transliteration, parts) 
-                VALUES (?, ?, ?, ?, ?)
-            ''', ('test', 'اختبار', 'خ ب ر', 'ikhtibaar', test_parts))
+                INSERT INTO words (english, arabic, root, transliteration, parts, parts_of_speech) 
+                VALUES (?, ?, ?, ?, ?, ?)
+            ''', ('test', 'اختبار', 'خ ب ر', 'ikhtibaar', test_parts, test_parts_of_speech))
             word_id = cursor.lastrowid
             
             # Insert group and get its ID
@@ -78,6 +78,11 @@ def app():
                 INSERT INTO word_reviews (word_id, correct_count, wrong_count)
                 VALUES (?, ?, ?)
             ''', (word_id, 1, 0))
+            # Link word to group
+            cursor.execute('''
+                INSERT INTO word_groups (word_id, group_id)
+                VALUES (?, ?)
+            ''', (word_id, group_id))
             
             app.db.commit()
         except Exception as e:

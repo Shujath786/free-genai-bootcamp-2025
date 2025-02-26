@@ -92,14 +92,15 @@ class Db:
         
         # Insert the word into the words table
         cursor.execute('''
-            INSERT INTO words (english, arabic, root, transliteration, parts) 
-            VALUES (?, ?, ?, ?, ?)
+            INSERT INTO words (english, arabic, root, transliteration, parts, parts_of_speech) 
+            VALUES (?, ?, ?, ?, ?, ?)
         ''', (
             word['english'], 
             word['arabic'], 
             word['root'],
             word['transliteration'],
-            json.dumps(parts)  # Convert the parts array to JSON string
+            json.dumps(parts),  # Convert the parts array to JSON string
+            ""
         ))
         
         # Get the last inserted word's ID
@@ -127,6 +128,17 @@ class Db:
   # Initialize the database with sample data
   def init(self, app):
     with app.app_context():
+      # Drop existing tables (if they exist) before creating new ones
+      cursor = self.cursor()
+      cursor.execute("DROP TABLE IF EXISTS words")
+      cursor.execute("DROP TABLE IF EXISTS word_reviews")
+      cursor.execute("DROP TABLE IF EXISTS word_review_items")
+      cursor.execute("DROP TABLE IF EXISTS groups")
+      cursor.execute("DROP TABLE IF EXISTS word_groups")
+      cursor.execute("DROP TABLE IF EXISTS study_activities")
+      cursor.execute("DROP TABLE IF EXISTS study_sessions")
+      self.get().commit()
+
       cursor = self.cursor()
       self.setup_tables(cursor)
       self.import_word_json(

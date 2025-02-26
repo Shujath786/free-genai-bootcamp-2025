@@ -204,7 +204,7 @@ Returns information about the most recent study session.
  { "id": 124, "group_id": 123 }
 
    
- -GET /api/words
+ #### GET /api/words
   - pagination with 100 items per page
   #### JSON Response
 
@@ -266,7 +266,7 @@ Returns information about the most recent study session.
 }
 ```
 
-  -### GET /api/groups/:id
+ ### GET /api/groups/:id
 #### JSON Response
 ```json
 {
@@ -384,6 +384,7 @@ Returns information about the most recent study session.
 ```
 
 ### POST /api/reset_history
+
 #### JSON Response
 ```json
 {

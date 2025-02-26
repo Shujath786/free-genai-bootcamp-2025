@@ -2,11 +2,11 @@ import pytest
 from app import create_app
 
 def test_get_words_endpoint(client):
-    response = client.get('/words')  # Changed from /api/words
+    response = client.get('/api/words')  # Changed from /api/words
     assert response.status_code == 200
 
 def test_get_single_word_endpoint(client):
-    response = client.get('/words/1')  # Changed from /api/words/1
+    response = client.get('/api/words/1')  # Changed from /api/words/1
     assert response.status_code == 200
 
 def test_get_groups_endpoint(client):
