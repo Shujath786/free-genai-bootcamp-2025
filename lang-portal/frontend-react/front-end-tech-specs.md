@@ -21,6 +21,53 @@ Tailwind CSS (css framework)
 Vite.js (frontend tool)
 ShadCN (UI components)
 
+## Directory Structure
+
+```
+
+src/
+├── components/
+│   ├── dashboard/              # Dashboard-specific components
+│   │   ├── StatsCard.tsx
+│   │   └── ActivityList.tsx
+│   ├── study/                  # Study-related components
+│   │   ├── WordCard.tsx
+│   │   ├── ProgressBar.tsx
+│   │   └── StudyControls.tsx
+│   ├── ui/                     # Reusable UI components
+│   │   ├── Button.tsx
+│   │   └── Card.tsx
+│   └── Layout.tsx             # Main layout component
+├── lib/
+│   ├── api/                   # API-related code
+│   │   ├── client.ts         # API client setup
+│   │   └── endpoints.ts      # API endpoint definitions
+│   ├── hooks/                # Custom React hooks
+│   │   ├── useLocalStorage.ts
+│   │   └── useMediaQuery.ts
+│   ├── types/                # TypeScript types
+│   │   ├── index.ts         # Core types
+│   │   └── api.ts           # API-specific types
+│   ├── constants.ts          # App constants
+│   ├── mockData.ts          # Mock data for development
+│   └── utils.ts             # Utility functions
+├── pages/                    # Page components
+│   ├── Dashboard.tsx
+│   ├── StudyActivities/
+│   │   ├── index.tsx
+│   │   ├── [id].tsx
+│   │   └── launch.tsx
+│   ├── Words/
+│   │   ├── index.tsx
+│   │   └── [id].tsx
+│   └── Settings.tsx
+├── styles/                   # Global styles
+│   ├── animations.css
+│   └── fonts.css
+├── App.tsx                  # Root component
+└── main.tsx                # Entry point
+```
+
 ## **Pages**
 
 ### **Dashboard** (`/dashboard`)
