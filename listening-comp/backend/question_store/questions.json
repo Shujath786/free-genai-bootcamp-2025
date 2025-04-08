@@ -1,0 +1,22 @@
+{
+  "0": {
+    "question": "How do you say 'hello' in Arabic?",
+    "answer": "مرحبا (Marhaba)",
+    "source": "basic_greetings"
+  },
+  "1": {
+    "question": "What is the Arabic word for 'thank you'?",
+    "answer": "شكرا (Shukran)",
+    "source": "basic_greetings"
+  },
+  "2": {
+    "question": "How do you say 'good morning' in Arabic?",
+    "answer": "صباح الخير (Sabah al-khair)",
+    "source": "basic_greetings"
+  },
+  "3": {
+    "question": "How do you say 'good evening' in Arabic?",
+    "answer": "مساء الخير (Masa' al-khair)",
+    "source": "basic_greetings"
+  }
+}

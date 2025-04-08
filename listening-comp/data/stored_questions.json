@@ -1,0 +1,114 @@
+{
+  "20250406_035633": {
+    "question": {
+      "question": "ما هو الرد المناسب على 'ماذا تفعل؟'\nWhat is the appropriate response to 'What are you doing?'",
+      "options": [
+        "Marhaba",
+        "Ana bekhair, shukran. Wa anta?",
+        "Afwan",
+        "Ana ba'ad"
+      ],
+      "correct_answer": 1,
+      "explanation": "'Ana bekhair, shukran. Wa anta?' means 'I'm fine, thank you. And you?' which is an appropriate response to 'What are you doing?' (ماذا تفعل؟). 'Marhaba' means 'hello', 'Afwan' means 'you're welcome', and 'Ana ba'ad' means 'I am later' or 'I am still working'."
+    },
+    "practice_type": "Dialogue Practice",
+    "topic": "Daily Conversation",
+    "created_at": "2025-04-06 03:56:33"
+  },
+  "20250406_035659": {
+    "question": {
+      "question": "ما هو الرد المناسب على 'ماذا تفعل؟'\nWhat is the appropriate response to 'What are you doing?'",
+      "options": [
+        "Marhaba",
+        "Ana bekhair, shukran",
+        "Ma'a salama",
+        "Ana ba'ad al-amal"
+      ],
+      "correct_answer": 1,
+      "explanation": "'Ana bekhair, shukran' means 'I'm fine, thank you' which is a common and polite response to 'What are you doing?' (ماذا تفعل؟) in Arabic. 'Marhaba' means 'hello', 'Ma'a salama' means 'peace be with you', and 'Ana ba'ad al-amal' means 'I am working'."
+    },
+    "practice_type": "Dialogue Practice",
+    "topic": "Daily Conversation",
+    "created_at": "2025-04-06 03:56:59"
+  },
+  "20250406_035715": {
+    "question": {
+      "question": "ما هو الرد المناسب على سؤال 'ماذا تريد أن تأكل؟' في المطعم؟\nWhat is the appropriate response to 'What do you want to eat?' in a restaurant?",
+      "options": [
+        "Ana bekhair",
+        "Ana bekhayr, shukran wa ana ba'ad",
+        "Afwan",
+        "Marhaba!"
+      ],
+      "correct_answer": 1,
+      "explanation": "'Ana bekhair, shukran wa ana ba'ad' means 'I'm fine, thank you, and then I will see' which is a polite way to indicate that you are thinking about what to order. 'Ana bekhair' means 'I'm fine', 'Afwan' means 'you're welcome', and 'Marhaba!' means 'hello!'."
+    },
+    "practice_type": "Dialogue Practice",
+    "topic": "Restaurant Ordering",
+    "created_at": "2025-04-06 03:57:15"
+  },
+  "20250406_035758": {
+    "question": {
+      "question": "What is the Arabic word for 'mother'?",
+      "options": [
+        "Umm",
+        "Ab",
+        "Ikh",
+        "Akher"
+      ],
+      "correct_answer": 0,
+      "explanation": "'Umm' means 'mother' in Arabic. 'Ab' means 'father', 'Ikh' means 'brother', and 'Akher' means 'sister'."
+    },
+    "practice_type": "Vocabulary Quiz",
+    "topic": "Family",
+    "created_at": "2025-04-06 03:57:58"
+  },
+  "20250406_035827": {
+    "question": {
+      "question": "ما هو اللون الذي يعني 'أحمر'؟ (What is the color that means 'red'?)",
+      "options": [
+        "Sa'idah",
+        "Ahmar",
+        "Azraq",
+        "Aswad"
+      ],
+      "correct_answer": 1,
+      "explanation": "'Ahmar' means 'red' in Arabic. 'Sa'idah' means 'happy', 'Azraq' means 'blue', and 'Aswad' means 'black'."
+    },
+    "practice_type": "Vocabulary Quiz",
+    "topic": "Colors",
+    "created_at": "2025-04-06 03:58:27"
+  },
+  "20250406_203407": {
+    "question": {
+      "question": "ما هو الرد المناسب على 'ماذا تفعل؟'\nWhat is the appropriate response to 'What are you doing?'",
+      "options": [
+        "Marhaba",
+        "Ana bekhair, shukran. Wa anta?",
+        "Afwan",
+        "Ana ba'ad"
+      ],
+      "correct_answer": 1,
+      "explanation": "'Ana bekhair, shukran. Wa anta?' means 'I'm fine, thank you. And you?' which is an appropriate response to 'What are you doing?' (ماذا تفعل؟). 'Marhaba' means 'hello', 'Afwan' means 'you're welcome', and 'Ana ba'ad' means 'I am later/still working'."
+    },
+    "practice_type": "Dialogue Practice",
+    "topic": "Daily Conversation",
+    "created_at": "2025-04-06 20:34:07"
+  },
+  "20250406_204206": {
+    "question": {
+      "question": "ما هو الرد المناسب على سؤال 'ماذا تريد أن تأكل؟' في المطعم؟\nWhat is the appropriate response to 'What do you want to eat?' in a restaurant?",
+      "options": [
+        "Ana bekhair",
+        "Ana bekhayr, shukran wa ana baed bik ta'am min al-masallamah",
+        "Afwan",
+        "Marhaba"
+      ],
+      "correct_answer": 1,
+      "explanation": "'Ana bekhair, shukran wa ana baed bik ta'am min al-masallamah' means 'I'm fine, thank you, and I would like some food from the menu' which is the appropriate response to 'What do you want to eat?' (What do you want to eat?). 'Ana bekhair' means 'I'm fine', 'Afwan' means 'you're welcome', and 'Marhaba' means 'hello'."
+    },
+    "practice_type": "Dialogue Practice",
+    "topic": "Restaurant Ordering",
+    "created_at": "2025-04-06 20:42:06"
+  }
+}

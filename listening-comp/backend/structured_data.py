@@ -59,6 +59,31 @@ class TranscriptStructurer:
         # Get response from Bedrock
         return self._generate_response(prompt)
 
+    def load_transcript(self, file_path: str) -> Optional[List[Dict]]:
+        """Load transcript from a file"""
+        try:
+            with open(file_path, 'r', encoding='utf-8') as f:
+                lines = f.readlines()
+                # Convert lines to transcript format
+                transcript = [{'text': line.strip()} for line in lines if line.strip()]
+                return transcript
+        except Exception as e:
+            print(f"Error loading transcript: {str(e)}")
+            return None
+
+    def save_questions(self, structured_text: str, output_file: str) -> None:
+        """Save structured Q&A to a file"""
+        try:
+            with open(output_file, 'w', encoding='utf-8') as f:
+                f.write(structured_text)
+            print(f"Successfully saved structured Q&A to {output_file}")
+        except Exception as e:
+            print(f"Error saving questions: {str(e)}")
+
+    def structure_transcript(self, transcript: List[Dict]) -> Optional[str]:
+        """Structure the transcript into Q&A format"""
+        return self.extract_qa_structure(transcript)
+
     def process_youtube_video(self, video_url: str) -> Optional[str]:
         """Process a YouTube video and extract structured Q&A"""
         # Get transcript
@@ -75,9 +100,7 @@ class TranscriptStructurer:
 # Example usage
 if __name__ == "__main__":
     structurer = TranscriptStructurer()
-    # Example video URL - Learn Arabic with Khasu
-    video_url = "https://www.youtube.com/watch?v=dinQIb4ZFXY"
-    
-    result = structurer.process_youtube_video(video_url)
-    if result:
-        print(result)
+    transcript = structurer.load_transcript("backend/data/transcripts/dinQIb4ZFXY.txt")
+    if transcript:
+        structured_sections = structurer.structure_transcript(transcript)
+        structurer.save_questions(structured_sections, "backend/data/questions/dinQIb4ZFXY.txt")

@@ -1,0 +1,22 @@
+[
+  {
+    "question": "What is the capital of France?",
+    "answer": "Paris",
+    "source": "geography_basics"
+  },
+  {
+    "question": "Which city is the capital of France?",
+    "answer": "Paris",
+    "source": "geography_basics"
+  },
+  {
+    "question": "What's the largest city in France?",
+    "answer": "Paris",
+    "source": "geography_facts"
+  },
+  {
+    "question": "Is Paris in France?",
+    "answer": "Yes, Paris is the capital city of France",
+    "source": "geography_basics"
+  }
+]
