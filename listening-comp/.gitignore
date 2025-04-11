@@ -19,6 +19,12 @@ lib64/
 parts/
 sdist/
 var/
+
+# Sensitive files
+bedrock-project-user_accessKeys.csv
+*.pem
+*.key
+.env
 wheels/
 share/python-wheels/
 *.egg-info/
