@@ -1,0 +1,31 @@
+# Application Configuration
+
+# Practice Settings
+difficulty_levels:
+  - "Beginner"
+  - "Intermediate"
+  - "Advanced"
+default_difficulty: "Beginner"
+
+# Feedback Settings
+feedback_language: "english"  # Options: english, arabic
+feedback_style: "detailed"   # Options: brief, detailed
+
+# UI Settings
+theme:
+  primary_color: "#2E7D32"  # Green shade
+  secondary_color: "#4CAF50"
+  text_color: "#333333"
+  background_color: "#FFFFFF"
+
+# Writing Categories
+categories:
+  - "General Writing"
+  - "Story Writing"
+  - "Essay Writing"
+  - "Letter Writing"
+  - "Creative Writing"
+
+# Tips Settings
+show_tips: true
+tips_refresh_interval: 300  # seconds
